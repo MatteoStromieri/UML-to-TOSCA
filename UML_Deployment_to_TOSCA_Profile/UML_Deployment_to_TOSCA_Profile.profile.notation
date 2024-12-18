@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ecore:EAnnotation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmi:id="_MaQmcL0cEe-PEL9IrliJmQ" source="Internationalization">
-  <details xmi:id="_MaRNgL0cEe-PEL9IrliJmQ" key="use" value="true"/>
-  <details xmi:id="_MaRNgb0cEe-PEL9IrliJmQ" key="language" value="it_IT"/>
-</ecore:EAnnotation>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style">
+  <ecore:EAnnotation xmi:id="_MaQmcL0cEe-PEL9IrliJmQ" source="Internationalization">
+    <details xmi:id="_MaRNgL0cEe-PEL9IrliJmQ" key="use" value="true"/>
+    <details xmi:id="_MaRNgb0cEe-PEL9IrliJmQ" key="language" value="it_IT"/>
+  </ecore:EAnnotation>
+  <notation:Diagram xmi:id="_1hB6AL0dEe-PEL9IrliJmQ" type="PapyrusUMLProfileDiagram" name="UML_Deployment_to_TOSCA" measurementUnit="Pixel">
+    <children xsi:type="notation:Shape" xmi:id="_56ktIL0dEe-PEL9IrliJmQ" type="Class_MetaclassShape">
+      <eAnnotations xmi:id="_56lUMr0dEe-PEL9IrliJmQ" source="Stereotype_Annotation">
+        <details xmi:id="_56lUM70dEe-PEL9IrliJmQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:id="_56lUNL0dEe-PEL9IrliJmQ" key="StereotypeList" value="StandardProfile::Metaclass"/>
+        <details xmi:id="_56lUNb0dEe-PEL9IrliJmQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:id="_56lUNr0dEe-PEL9IrliJmQ" key="PropStereoDisplay" value=""/>
+        <details xmi:id="_56lUN70dEe-PEL9IrliJmQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <children xsi:type="notation:DecorationNode" xmi:id="_56lUML0dEe-PEL9IrliJmQ" type="Class_MetaclassNameLabel"/>
+      <element href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_56lUMb0dEe-PEL9IrliJmQ" x="800" y="240"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_562Z870dEe-PEL9IrliJmQ" type="StereotypeComment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_562Z9L0dEe-PEL9IrliJmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_562Z9r0dEe-PEL9IrliJmQ" name="BASE_ELEMENT">
+        <eObjectValue href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_562Z9b0dEe-PEL9IrliJmQ" x="1000" y="240"/>
+    </children>
+    <children xsi:type="notation:Shape" xmi:id="_6xZncL0dEe-PEL9IrliJmQ" type="Stereotype_Shape">
+      <children xsi:type="notation:DecorationNode" xmi:id="_6xaOgL0dEe-PEL9IrliJmQ" type="Stereotype_NameLabel"/>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_6xbcoL0dEe-PEL9IrliJmQ" type="Stereotype_AttributeCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_6xbcob0dEe-PEL9IrliJmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_6xbcor0dEe-PEL9IrliJmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_6xbco70dEe-PEL9IrliJmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6xbcpL0dEe-PEL9IrliJmQ"/>
+      </children>
+      <children xsi:type="notation:BasicCompartment" xmi:id="_6xbcpb0dEe-PEL9IrliJmQ" type="Stereotype_OperationCompartment">
+        <styles xsi:type="notation:TitleStyle" xmi:id="_6xbcpr0dEe-PEL9IrliJmQ"/>
+        <styles xsi:type="notation:SortingStyle" xmi:id="_6xbcp70dEe-PEL9IrliJmQ"/>
+        <styles xsi:type="notation:FilteringStyle" xmi:id="_6xbcqL0dEe-PEL9IrliJmQ"/>
+        <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6xbcqb0dEe-PEL9IrliJmQ"/>
+      </children>
+      <element href="UML_Deployment_to_TOSCA_Profile.profile.uml#_6xLlAL0dEe-PEL9IrliJmQ"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_6xZncb0dEe-PEL9IrliJmQ" x="800" y="60"/>
+    </children>
+    <styles xsi:type="notation:StringValueStyle" xmi:id="_1hB6Ab0dEe-PEL9IrliJmQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xsi:type="notation:DiagramStyle" xmi:id="_1hB6Ar0dEe-PEL9IrliJmQ"/>
+    <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_1hB6A70dEe-PEL9IrliJmQ" diagramKindId="org.eclipse.papyrus.uml.diagram.profile">
+      <owner href="UML_Deployment_to_TOSCA_Profile.profile.uml#_8Cbm8L0cEe-PEL9IrliJmQ"/>
+    </styles>
+    <element href="UML_Deployment_to_TOSCA_Profile.profile.uml#_8Cbm8L0cEe-PEL9IrliJmQ"/>
+    <edges xsi:type="notation:Connector" xmi:id="_562Z970dEe-PEL9IrliJmQ" type="StereotypeCommentLink" source="_56ktIL0dEe-PEL9IrliJmQ" target="_562Z870dEe-PEL9IrliJmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_562Z-L0dEe-PEL9IrliJmQ"/>
+      <styles xsi:type="notation:EObjectValueStyle" xmi:id="_563BAr0dEe-PEL9IrliJmQ" name="BASE_ELEMENT">
+        <eObjectValue href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_562Z-b0dEe-PEL9IrliJmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_563BAL0dEe-PEL9IrliJmQ"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_563BAb0dEe-PEL9IrliJmQ"/>
+    </edges>
+    <edges xsi:type="notation:Connector" xmi:id="_9S9lQL0dEe-PEL9IrliJmQ" type="Extension_Edge" source="_6xZncL0dEe-PEL9IrliJmQ" target="_56ktIL0dEe-PEL9IrliJmQ">
+      <styles xsi:type="notation:FontStyle" xmi:id="_9S9lQb0dEe-PEL9IrliJmQ"/>
+      <element href="UML_Deployment_to_TOSCA_Profile.profile.uml#_9Sg5UL0dEe-PEL9IrliJmQ"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_9S9lQr0dEe-PEL9IrliJmQ" points="[860, 160, -643984, -643984]$[860, 240, -643984, -643984]"/>
+      <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_9Tz50L0dEe-PEL9IrliJmQ" id="(0.6,1.0)"/>
+      <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_9Tz50b0dEe-PEL9IrliJmQ" id="(0.6,0.0)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

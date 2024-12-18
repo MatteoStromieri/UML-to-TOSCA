@@ -8,6 +8,21 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBL0dEe-PEL9IrliJmQ" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBb0dEe-PEL9IrliJmQ" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="__T7XcL0dEe-PEL9IrliJmQ" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/__T47ML0dEe-PEL9IrliJmQ/2" nsPrefix="UML_Deployment_to_TOSCA_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__T8lkL0dEe-PEL9IrliJmQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8lkb0dEe-PEL9IrliJmQ" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8lkr0dEe-PEL9IrliJmQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8lk70dEe-PEL9IrliJmQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8llL0dEe-PEL9IrliJmQ" key="Date" value="2024-12-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8llb0dEe-PEL9IrliJmQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="__T7Xcb0dEe-PEL9IrliJmQ" name="Hardware">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__T7Xcr0dEe-PEL9IrliJmQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6xLlAL0dEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="__T7Xc70dEe-PEL9IrliJmQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_ZAaZMb0dEe-PEL9IrliJmQ" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/_ZAaZML0dEe-PEL9IrliJmQ/1" nsPrefix="UML_Deployment_to_TOSCA_Profile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZAbAQL0dEe-PEL9IrliJmQ" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZAbAQb0dEe-PEL9IrliJmQ" key="Version" value="0.0.2"/>
@@ -42,4 +57,13 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_8KxqoL0cEe-PEL9IrliJmQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_6xLlAL0dEe-PEL9IrliJmQ" name="Hardware">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9SnnAL0dEe-PEL9IrliJmQ" name="base_Node" association="_9Sg5UL0dEe-PEL9IrliJmQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9SnnAb0dEe-PEL9IrliJmQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_9Sg5UL0dEe-PEL9IrliJmQ" name="E_Hardware_Node8" memberEnd="_9SlKwL0dEe-PEL9IrliJmQ _9SnnAL0dEe-PEL9IrliJmQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_9SlKwL0dEe-PEL9IrliJmQ" name="extension_Hardware" type="_6xLlAL0dEe-PEL9IrliJmQ" aggregation="composite" association="_9Sg5UL0dEe-PEL9IrliJmQ"/>
+  </packagedElement>
 </uml:Profile>
