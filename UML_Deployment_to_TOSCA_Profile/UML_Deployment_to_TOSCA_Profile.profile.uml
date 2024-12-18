@@ -8,6 +8,42 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBL0dEe-PEL9IrliJmQ" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBb0dEe-PEL9IrliJmQ" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_FDrTEL0fEe-PEL9IrliJmQ" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/_FDpd4L0fEe-PEL9IrliJmQ/3" nsPrefix="UML_Deployment_to_TOSCA_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FDtIQr0fEe-PEL9IrliJmQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FDtIQ70fEe-PEL9IrliJmQ" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FDtIRL0fEe-PEL9IrliJmQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FDtIRb0fEe-PEL9IrliJmQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FDtIRr0fEe-PEL9IrliJmQ" key="Date" value="2024-12-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FDtIR70fEe-PEL9IrliJmQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FDrTEb0fEe-PEL9IrliJmQ" name="Hardware">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FDrTEr0fEe-PEL9IrliJmQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6xLlAL0dEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FDrTE70fEe-PEL9IrliJmQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FDrTFb0fEe-PEL9IrliJmQ" name="Piattaforma">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FDrTFr0fEe-PEL9IrliJmQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_5EVMML0eEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FDrTF70fEe-PEL9IrliJmQ" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FDrTGb0fEe-PEL9IrliJmQ" name="base_ExecutionEnvironment" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionEnvironment"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FDrTG70fEe-PEL9IrliJmQ" name="Software">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FDrTHL0fEe-PEL9IrliJmQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6SHN8L0eEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FDrTHb0fEe-PEL9IrliJmQ" name="base_ExecutionEnvironment" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionEnvironment"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FDrTH70fEe-PEL9IrliJmQ" name="base_Artifact" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FDrTIb0fEe-PEL9IrliJmQ" name="Periferica" eSuperTypes="_FDrTEb0fEe-PEL9IrliJmQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FDrTIr0fEe-PEL9IrliJmQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_73XUgL0eEe-PEL9IrliJmQ"/>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="__T7XcL0dEe-PEL9IrliJmQ" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/__T47ML0dEe-PEL9IrliJmQ/2" nsPrefix="UML_Deployment_to_TOSCA_Profile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__T8lkL0dEe-PEL9IrliJmQ" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__T8lkb0dEe-PEL9IrliJmQ" key="Version" value="0.0.3"/>
@@ -65,5 +101,40 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_9Sg5UL0dEe-PEL9IrliJmQ" name="E_Hardware_Node8" memberEnd="_9SlKwL0dEe-PEL9IrliJmQ _9SnnAL0dEe-PEL9IrliJmQ">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_9SlKwL0dEe-PEL9IrliJmQ" name="extension_Hardware" type="_6xLlAL0dEe-PEL9IrliJmQ" aggregation="composite" association="_9Sg5UL0dEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_5EVMML0eEe-PEL9IrliJmQ" name="Piattaforma">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AVg60L0fEe-PEL9IrliJmQ" name="base_Node" association="_AVfssL0fEe-PEL9IrliJmQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AVhh4L0fEe-PEL9IrliJmQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BExNgL0fEe-PEL9IrliJmQ" name="base_ExecutionEnvironment" association="_BEv_YL0fEe-PEL9IrliJmQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#ExecutionEnvironment"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BExNgb0fEe-PEL9IrliJmQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_6SHN8L0eEe-PEL9IrliJmQ" name="Software">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B6Z1Ab0fEe-PEL9IrliJmQ" name="base_ExecutionEnvironment" association="_B6ZN8L0fEe-PEL9IrliJmQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#ExecutionEnvironment"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B6Z1Ar0fEe-PEL9IrliJmQ"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CeNssL0fEe-PEL9IrliJmQ" name="base_Artifact" association="_CeL3gL0fEe-PEL9IrliJmQ">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Artifact"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CeNssb0fEe-PEL9IrliJmQ"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_73XUgL0eEe-PEL9IrliJmQ" name="Periferica">
+    <generalization xmi:type="uml:Generalization" xmi:id="__Vlu4L0eEe-PEL9IrliJmQ" general="_6xLlAL0dEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_AVfssL0fEe-PEL9IrliJmQ" name="E_Piattaforma_Node12" memberEnd="_AVgTwL0fEe-PEL9IrliJmQ _AVg60L0fEe-PEL9IrliJmQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_AVgTwL0fEe-PEL9IrliJmQ" name="extension_Piattaforma" type="_5EVMML0eEe-PEL9IrliJmQ" aggregation="composite" association="_AVfssL0fEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_BEv_YL0fEe-PEL9IrliJmQ" name="E_Piattaforma_ExecutionEnvironment13" memberEnd="_BEwmcL0fEe-PEL9IrliJmQ _BExNgL0fEe-PEL9IrliJmQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_BEwmcL0fEe-PEL9IrliJmQ" name="extension_Piattaforma" type="_5EVMML0eEe-PEL9IrliJmQ" aggregation="composite" association="_BEv_YL0fEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_B6ZN8L0fEe-PEL9IrliJmQ" name="E_Software_ExecutionEnvironment14" memberEnd="_B6Z1AL0fEe-PEL9IrliJmQ _B6Z1Ab0fEe-PEL9IrliJmQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_B6Z1AL0fEe-PEL9IrliJmQ" name="extension_Software" type="_6SHN8L0eEe-PEL9IrliJmQ" aggregation="composite" association="_B6ZN8L0fEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CeL3gL0fEe-PEL9IrliJmQ" name="E_Software_Artifact15" memberEnd="_CeNFoL0fEe-PEL9IrliJmQ _CeNssL0fEe-PEL9IrliJmQ">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CeNFoL0fEe-PEL9IrliJmQ" name="extension_Software" type="_6SHN8L0eEe-PEL9IrliJmQ" aggregation="composite" association="_CeL3gL0fEe-PEL9IrliJmQ"/>
   </packagedElement>
 </uml:Profile>
