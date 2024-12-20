@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4ZFJcL7DEe-iBtUHqf9b-w" name="web_server">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_4eo-4L7DEe-iBtUHqf9b-w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_7_t48L7DEe-iBtUHqf9b-w" name="Web Server">
+    <deployment xmi:type="uml:Deployment" xmi:id="_0PRJgL7FEe-1_rTKxio1mg" client="_7_t48L7DEe-iBtUHqf9b-w" supplier="_yO_T0L7FEe-1_rTKxio1mg" deployedArtifact="_yO_T0L7FEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="__p99IL7DEe-iBtUHqf9b-w" name="DB Server">
+    <deployment xmi:type="uml:Deployment" xmi:id="_by0owL7FEe-1_rTKxio1mg" client="__p99IL7DEe-iBtUHqf9b-w" supplier="_ygNcIL7EEe-1_rTKxio1mg" deployedArtifact="_ygNcIL7EEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_BkFgcL7EEe-iBtUHqf9b-w" name="UserClient">
+    <nestedNode xmi:type="uml:Node" xmi:id="_PjflIL7FEe-1_rTKxio1mg" name="Browser">
+      <deployment xmi:type="uml:Deployment" xmi:id="_ZwAccL7FEe-1_rTKxio1mg" client="_PjflIL7FEe-1_rTKxio1mg _4ZFJcL7DEe-iBtUHqf9b-w" supplier="_Ge5_ML7FEe-1_rTKxio1mg" deployedArtifact="_Ge5_ML7FEe-1_rTKxio1mg"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_Ge5_ML7FEe-1_rTKxio1mg" name="HTML 5"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_ygNcIL7EEe-1_rTKxio1mg" name="MySQL DB"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_m0pXcL7FEe-1_rTKxio1mg" name="http:80" memberEnd="_m0u3AL7FEe-1_rTKxio1mg _m0yhYL7FEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m0tB0L7FEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m0tB0b7FEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m0u3AL7FEe-1_rTKxio1mg" name="browser" type="_PjflIL7FEe-1_rTKxio1mg" association="_m0pXcL7FEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_m0yhYL7FEe-1_rTKxio1mg" name="web server" type="_7_t48L7DEe-iBtUHqf9b-w" association="_m0pXcL7FEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_puvxEL7FEe-1_rTKxio1mg" memberEnd="_puxmQL7FEe-1_rTKxio1mg _puyNUL7FEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_puw_ML7FEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_puw_Mb7FEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_puxmQL7FEe-1_rTKxio1mg" name="db server" type="__p99IL7DEe-iBtUHqf9b-w" association="_puvxEL7FEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_puyNUL7FEe-1_rTKxio1mg" name="web server" type="_7_t48L7DEe-iBtUHqf9b-w" association="_puvxEL7FEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_yO_T0L7FEe-1_rTKxio1mg" name="Website"/>
+</uml:Model>
