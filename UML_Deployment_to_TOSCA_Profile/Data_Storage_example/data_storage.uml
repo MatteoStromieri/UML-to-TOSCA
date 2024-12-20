@@ -32,7 +32,7 @@
   <packagedElement xmi:type="uml:Artifact" xmi:id="_eOB7YL7PEe-1_rTKxio1mg" name="Bank Application Backend"/>
   <packagedElement xmi:type="uml:Node" xmi:id="_ldkEML7PEe-1_rTKxio1mg" name="Workstation">
     <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_3HtKsL7PEe-1_rTKxio1mg" name="Linux OS">
-      <deployment xmi:type="uml:Deployment" xmi:id="_BlafsL7QEe-1_rTKxio1mg" client="_3HtKsL7PEe-1_rTKxio1mg" supplier="_9L5hwL7PEe-1_rTKxio1mg" deployedArtifact="_9L5hwL7PEe-1_rTKxio1mg"/>
+      <deployment xmi:type="uml:Deployment" xmi:id="_e7gP8L7QEe-1_rTKxio1mg" client="_3HtKsL7PEe-1_rTKxio1mg" supplier="_9L5hwL7PEe-1_rTKxio1mg" deployedArtifact="_9L5hwL7PEe-1_rTKxio1mg"/>
     </nestedNode>
   </packagedElement>
   <packagedElement xmi:type="uml:Node" xmi:id="_nzojsL7PEe-1_rTKxio1mg" name="Data Storage "/>

@@ -172,19 +172,6 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hv11QL7PEe-1_rTKxio1mg" id="(0.6622516556291391,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hv2cUL7PEe-1_rTKxio1mg" id="(0.4968944099378882,1.0)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_Bln7EL7QEe-1_rTKxio1mg" type="Deployment_Edge" source="_9L7W8L7PEe-1_rTKxio1mg" target="_3H9CUL7PEe-1_rTKxio1mg">
-    <children xmi:type="notation:DecorationNode" xmi:id="_Bln7E77QEe-1_rTKxio1mg" type="Deployment_NameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Bln7FL7QEe-1_rTKxio1mg" y="60"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_Bln7Fb7QEe-1_rTKxio1mg" type="Deployment_StereotypeLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Bln7Fr7QEe-1_rTKxio1mg" x="-27" y="24"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_Bln7Eb7QEe-1_rTKxio1mg"/>
-    <element xmi:type="uml:Deployment" href="data_storage.uml#_BlafsL7QEe-1_rTKxio1mg"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bln7Er7QEe-1_rTKxio1mg" points="[1060, 480, -643984, -643984]$[1060, 360, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BmIRYL7QEe-1_rTKxio1mg" id="(0.4,0.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BmIRYb7QEe-1_rTKxio1mg" id="(0.49586776859504134,1.0)"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_CuV2oL7QEe-1_rTKxio1mg" type="CommunicationPath_Edge" source="_ldlSUL7PEe-1_rTKxio1mg" target="_nz1YAL7PEe-1_rTKxio1mg">
     <children xmi:type="notation:DecorationNode" xmi:id="_CuWdsL7QEe-1_rTKxio1mg" type="CommunicationPath_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_EEqJUL7QEe-1_rTKxio1mg" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -227,5 +214,18 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TdD2sr7QEe-1_rTKxio1mg" points="[861, 340, -643984, -643984]$[980, 320, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TdpFgL7QEe-1_rTKxio1mg" id="(1.0,0.49586776859504134)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TdpskL7QEe-1_rTKxio1mg" id="(0.0,0.6965174129353234)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_e7u5cL7QEe-1_rTKxio1mg" type="Deployment_Edge" source="_9L7W8L7PEe-1_rTKxio1mg" target="_3H9CUL7PEe-1_rTKxio1mg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_e7u5c77QEe-1_rTKxio1mg" type="Deployment_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e7u5dL7QEe-1_rTKxio1mg" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_e7u5db7QEe-1_rTKxio1mg" type="Deployment_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e7u5dr7QEe-1_rTKxio1mg" x="-27" y="37"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_e7u5cb7QEe-1_rTKxio1mg"/>
+    <element xmi:type="uml:Deployment" href="data_storage.uml#_e7gP8L7QEe-1_rTKxio1mg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e7u5cr7QEe-1_rTKxio1mg" points="[1100, 480, -643984, -643984]$[1060, 340, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e8RE8L7QEe-1_rTKxio1mg" id="(0.6666666666666666,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e8RE8b7QEe-1_rTKxio1mg" id="(0.49586776859504134,1.0)"/>
   </edges>
 </notation:Diagram>
