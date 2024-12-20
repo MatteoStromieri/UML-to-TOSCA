@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_E7_osL7KEe-1_rTKxio1mg" name="web_application_cluster">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_E9doUL7KEe-1_rTKxio1mg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_GJunIL7KEe-1_rTKxio1mg" name="Personal Computer">
+    <nestedNode xmi:type="uml:Node" xmi:id="_vUEokL7KEe-1_rTKxio1mg" name="Web Browser"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_g37vIL7KEe-1_rTKxio1mg" name="Sun Fire X4170 Server">
+    <deployment xmi:type="uml:Deployment" xmi:id="_jYNeEL7LEe-1_rTKxio1mg" client="_g37vIL7KEe-1_rTKxio1mg" supplier="_g7dHwL7LEe-1_rTKxio1mg" deployedArtifact="_g7dHwL7LEe-1_rTKxio1mg"/>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_-m-K4L7KEe-1_rTKxio1mg" name="Linux OS">
+      <deployment xmi:type="uml:Deployment" xmi:id="_lHx-QL7LEe-1_rTKxio1mg" client="_-m-K4L7KEe-1_rTKxio1mg" supplier="_cRQCcL7LEe-1_rTKxio1mg" deployedArtifact="_cRQCcL7LEe-1_rTKxio1mg"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_jWGasL7KEe-1_rTKxio1mg" name="Sun Fire X4150 Server">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_s9hygL7LEe-1_rTKxio1mg" name="Linux OS">
+      <deployment xmi:type="uml:Deployment" xmi:id="__88p4L7LEe-1_rTKxio1mg" client="_s9hygL7LEe-1_rTKxio1mg" supplier="_9F91sL7LEe-1_rTKxio1mg" deployedArtifact="_9F91sL7LEe-1_rTKxio1mg"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_mE3HAL7KEe-1_rTKxio1mg" name="Sun Fire X4151 Server">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_xIL1EL7LEe-1_rTKxio1mg" name="Linux OS">
+      <deployment xmi:type="uml:Deployment" xmi:id="_F7wxsL7MEe-1_rTKxio1mg" client="_xIL1EL7LEe-1_rTKxio1mg" supplier="_C0v9cL7MEe-1_rTKxio1mg" deployedArtifact="_C0v9cL7MEe-1_rTKxio1mg"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_qaMvkL7KEe-1_rTKxio1mg" name="Sun SPARC Server">
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_QNncAL7MEe-1_rTKxio1mg" name="Sun Solaris OS">
+      <deployment xmi:type="uml:Deployment" xmi:id="_YWOh4L7MEe-1_rTKxio1mg" client="_QNncAL7MEe-1_rTKxio1mg _E7_osL7KEe-1_rTKxio1mg" supplier="_VPtc4L7MEe-1_rTKxio1mg" deployedArtifact="_VPtc4L7MEe-1_rTKxio1mg"/>
+    </nestedNode>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_cRQCcL7LEe-1_rTKxio1mg" name="mod_jk"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_g7dHwL7LEe-1_rTKxio1mg" name="static_content"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_ow3k0L7LEe-1_rTKxio1mg" name="http" memberEnd="_ow4y8L7LEe-1_rTKxio1mg _ow5aAL7LEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ow4L4L7LEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ow4L4b7LEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ow4y8L7LEe-1_rTKxio1mg" name="linux os" type="_-m-K4L7KEe-1_rTKxio1mg" association="_ow3k0L7LEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ow5aAL7LEe-1_rTKxio1mg" name="web browser" type="_vUEokL7KEe-1_rTKxio1mg" association="_ow3k0L7LEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_2xaucL7LEe-1_rTKxio1mg" memberEnd="_2xb8kr7LEe-1_rTKxio1mg _2xcjoL7LEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2xb8kL7LEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2xb8kb7LEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2xb8kr7LEe-1_rTKxio1mg" name="linux os" type="_s9hygL7LEe-1_rTKxio1mg" association="_2xaucL7LEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2xcjoL7LEe-1_rTKxio1mg" name="linux os" type="_-m-K4L7KEe-1_rTKxio1mg" association="_2xaucL7LEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_3tZOgL7LEe-1_rTKxio1mg" memberEnd="_3tZ1kr7LEe-1_rTKxio1mg _3tZ1k77LEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3tZ1kL7LEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3tZ1kb7LEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3tZ1kr7LEe-1_rTKxio1mg" name="linux os" type="_xIL1EL7LEe-1_rTKxio1mg" association="_3tZOgL7LEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3tZ1k77LEe-1_rTKxio1mg" name="linux os" type="_-m-K4L7KEe-1_rTKxio1mg" association="_3tZOgL7LEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_9F91sL7LEe-1_rTKxio1mg" name="Application"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_C0v9cL7MEe-1_rTKxio1mg" name="Application"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_VPtc4L7MEe-1_rTKxio1mg" name="User app"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_cKAVgL7MEe-1_rTKxio1mg" name="TCP/IP" memberEnd="_cKBjoL7MEe-1_rTKxio1mg _cKCKsL7MEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cKA8kL7MEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cKA8kb7MEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cKBjoL7MEe-1_rTKxio1mg" name="sun solaris os" type="_QNncAL7MEe-1_rTKxio1mg" association="_cKAVgL7MEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cKCKsL7MEe-1_rTKxio1mg" name="linux os" type="_s9hygL7LEe-1_rTKxio1mg" association="_cKAVgL7MEe-1_rTKxio1mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_fC6cUL7MEe-1_rTKxio1mg" name="TCP/IP" memberEnd="_fC7DYr7MEe-1_rTKxio1mg _fC7qcL7MEe-1_rTKxio1mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fC7DYL7MEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fC7DYb7MEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fC7DYr7MEe-1_rTKxio1mg" name="sun solaris os" type="_QNncAL7MEe-1_rTKxio1mg" association="_fC6cUL7MEe-1_rTKxio1mg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fC7qcL7MEe-1_rTKxio1mg" name="linux os" type="_xIL1EL7LEe-1_rTKxio1mg" association="_fC6cUL7MEe-1_rTKxio1mg"/>
+  </packagedElement>
+</uml:Model>
