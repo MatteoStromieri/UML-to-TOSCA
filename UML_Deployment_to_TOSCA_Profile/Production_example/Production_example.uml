@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Xwd3cL-SEe-VptWBR8Qn9g" name="Production_example">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_mCPegL-TEe-VptWBR8Qn9g">
+    <body>Gli Attributi dei due Server e gli IP della loro Comunicazone sono nelle loro rispettive sezioni Properties/Comments&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_4WAe4L-VEe-VptWBR8Qn9g" annotatedElement="_Xwd3cL-SEe-VptWBR8Qn9g">
+    <body>WEBS_to_DB_IP = &quot;192.168.0.2 / ea&quot;&#xD;
+DB_to_WEBS_IP = &quot;216.239.46.95 / ea&quot;</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Xwr54L-SEe-VptWBR8Qn9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_3MCGcL-SEe-VptWBR8Qn9g" name="NYCPROD-WEBS-002: Dell Blade Server">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_C3wtwL-TEe-VptWBR8Qn9g" annotatedElement="_3MCGcL-SEe-VptWBR8Qn9g">
+      <body>RAM = 2048 MB&#xD;
+Blades = 4&#xD;
+Disk Controller = Raid 5</body>
+    </ownedComment>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_iixG8L-TEe-VptWBR8Qn9g" name="Red Hat Linux Enterprise"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_2A56oL-TEe-VptWBR8Qn9g" name="Apache"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_3EUfcL-TEe-VptWBR8Qn9g" name="Glassfish"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8JoMYL-TEe-VptWBR8Qn9g" name="Contained" client="_2A56oL-TEe-VptWBR8Qn9g" supplier="_iixG8L-TEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_CRm3QL-UEe-VptWBR8Qn9g" name="Contained" client="_3EUfcL-TEe-VptWBR8Qn9g" supplier="_iixG8L-TEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_kLOdEL-UEe-VptWBR8Qn9g" name="NYCPROD-DBS-007: Dell Blade Server">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uBwdUL-UEe-VptWBR8Qn9g" annotatedElement="_kLOdEL-UEe-VptWBR8Qn9g">
+      <body>RAM = 2048 MB&#xD;
+Blades = 10&#xD;
+Disk Controller = Raid 5</body>
+    </ownedComment>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_JLRBQL-VEe-VptWBR8Qn9g" name="Release 7.1: Red Hat Linux Enterprise"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_UkHv4L-VEe-VptWBR8Qn9g" name="Oracle"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_YKahIL-VEe-VptWBR8Qn9g" name="Contained" client="_UkHv4L-VEe-VptWBR8Qn9g" supplier="_JLRBQL-VEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_mfizoL-VEe-VptWBR8Qn9g" memberEnd="_mfizo7-VEe-VptWBR8Qn9g _mfjasL-VEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mfizob-VEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfizor-VEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mfizo7-VEe-VptWBR8Qn9g" name="nycprod-dbs-007: dell blade server" type="_kLOdEL-UEe-VptWBR8Qn9g" association="_mfizoL-VEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mfjasL-VEe-VptWBR8Qn9g" name="nycprod-webs-002: dell blade server" type="_3MCGcL-SEe-VptWBR8Qn9g" association="_mfizoL-VEe-VptWBR8Qn9g"/>
+  </packagedElement>
+</uml:Model>

@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_yUtLML7OEe-1_rTKxio1mg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Node" xmi:id="_Gn7z0L7PEe-1_rTKxio1mg" name="Client Device">
+  <packagedElement xmi:type="uml:Node" xmi:id="_Gn7z0L7PEe-1_rTKxio1mg" name="Client Device" visibility="public">
     <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_JK8jIL7PEe-1_rTKxio1mg" name="Android">
       <deployment xmi:type="uml:Deployment" xmi:id="_NZhcYL7PEe-1_rTKxio1mg" client="_JK8jIL7PEe-1_rTKxio1mg" supplier="_Lb0ZkL7PEe-1_rTKxio1mg" deployedArtifact="_Lb0ZkL7PEe-1_rTKxio1mg"/>
     </nestedNode>
