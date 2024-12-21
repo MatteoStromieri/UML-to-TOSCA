@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LcPjML-GEe-VptWBR8Qn9g" name="MDG_TEST_EXAMPLE">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_LceMsL-GEe-VptWBR8Qn9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_tcXkML-HEe-VptWBR8Qn9g" name="ClientStud">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_8v2VUL-HEe-VptWBR8Qn9g" name="Stud"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="__PSzQL-HEe-VptWBR8Qn9g" name="SecStud"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_PLejIL-IEe-VptWBR8Qn9g" client="_8v2VUL-HEe-VptWBR8Qn9g" supplier="__PSzQL-HEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_afn7cL-JEe-VptWBR8Qn9g" name="ClientMain">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ubOuQL-JEe-VptWBR8Qn9g" name="SecMain"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_z_1mUL-JEe-VptWBR8Qn9g" name="Office"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_ffDp4L-JEe-VptWBR8Qn9g" name="Manager"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_xzUEYL-JEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_ubOuQL-JEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_0p1lkL-JEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_z_1mUL-JEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_IA_ngL-KEe-VptWBR8Qn9g" name="Server">
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_jnJrML-KEe-VptWBR8Qn9g" name="DB"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_l-mqwL-KEe-VptWBR8Qn9g" name="DBAccess"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_nekosL-KEe-VptWBR8Qn9g" name="CourseSets2"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_pOsigL-KEe-VptWBR8Qn9g" name="CourseArc"/>
+    <nestedClassifier xmi:type="uml:Artifact" xmi:id="_wbLXUL-KEe-VptWBR8Qn9g" name="SecuritySe"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_BXqGkL-LEe-VptWBR8Qn9g" client="_l-mqwL-KEe-VptWBR8Qn9g" supplier="_jnJrML-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_DMRe0L-LEe-VptWBR8Qn9g" client="_nekosL-KEe-VptWBR8Qn9g" supplier="_l-mqwL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_HAW0cL-LEe-VptWBR8Qn9g" client="_pOsigL-KEe-VptWBR8Qn9g" supplier="_l-mqwL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Lt6IsL-LEe-VptWBR8Qn9g" client="_nekosL-KEe-VptWBR8Qn9g" supplier="_wbLXUL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OqwUUL-LEe-VptWBR8Qn9g" client="_pOsigL-KEe-VptWBR8Qn9g" supplier="_wbLXUL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_uWBMML-LEe-VptWBR8Qn9g" client="_8v2VUL-HEe-VptWBR8Qn9g" supplier="_nekosL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_xTBv4L-LEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_nekosL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2zZBIL-LEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_pOsigL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_VDoFcL-MEe-VptWBR8Qn9g" client="_8v2VUL-HEe-VptWBR8Qn9g" supplier="_pOsigL-KEe-VptWBR8Qn9g"/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_ikgQgL-MEe-VptWBR8Qn9g" name="TCP/IP" memberEnd="_ikg3kr-MEe-VptWBR8Qn9g _ikg3k7-MEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ikg3kL-MEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikg3kb-MEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ikg3kr-MEe-VptWBR8Qn9g" name="clientstud" type="_tcXkML-HEe-VptWBR8Qn9g" association="_ikgQgL-MEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ikg3k7-MEe-VptWBR8Qn9g" name="server" type="_IA_ngL-KEe-VptWBR8Qn9g" association="_ikgQgL-MEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_uFuQ8L-MEe-VptWBR8Qn9g" name="TCP/IP" memberEnd="_uFuQ87-MEe-VptWBR8Qn9g _uFu4AL-MEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uFuQ8b-MEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uFuQ8r-MEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uFuQ87-MEe-VptWBR8Qn9g" name="server" type="_IA_ngL-KEe-VptWBR8Qn9g" association="_uFuQ8L-MEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uFu4AL-MEe-VptWBR8Qn9g" name="clientmain" type="_afn7cL-JEe-VptWBR8Qn9g" association="_uFuQ8L-MEe-VptWBR8Qn9g"/>
+  </packagedElement>
+</uml:Model>
