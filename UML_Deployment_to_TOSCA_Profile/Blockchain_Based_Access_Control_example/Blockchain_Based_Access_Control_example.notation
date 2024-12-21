@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_eSg14L-XEe-VptWBR8Qn9g" type="PapyrusUMLDeploymentDiagram" name="NewDeploymentDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_jzJM4L-XEe-VptWBR8Qn9g" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jzJM4r-XEe-VptWBR8Qn9g" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jzJM47-XEe-VptWBR8Qn9g" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_jzJM5L-XEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzJM5b-XEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Node" href="Blockchain_Based_Access_Control_example.uml#_jzIl0L-XEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzJM4b-XEe-VptWBR8Qn9g" x="340" y="200" width="121" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pBjLcL-XEe-VptWBR8Qn9g" type="Artifact_Shape_CCN">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pBjLcr-XEe-VptWBR8Qn9g" type="Artifact_NameLabel_CCN"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pBjLc7-XEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel_CCN">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pBjLdL-XEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pBjLdb-XEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment_CCN">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_pBjLdr-XEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pBjLd7-XEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#_pBh9UL-XEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pBjLcb-XEe-VptWBR8Qn9g" x="40" y="200" width="161" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_8qXlIb-XEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_8qYMML-XEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_8qYMMb-XEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_8qYMMr-XEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_8qYMM7-XEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8qYMNL-XEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qYMNb-XEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#_8qXlIL-XEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8qXlIr-XEe-VptWBR8Qn9g" x="40" y="320" width="161" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hdd5gL-YEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hdd5gr-YEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hdd5g7-YEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hdd5hL-YEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hdd5hb-YEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_hdd5hr-YEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hdd5h7-YEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#_hddScL-YEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hdd5gb-YEe-VptWBR8Qn9g" x="40" y="40" width="161" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ODXb0b-ZEe-VptWBR8Qn9g" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ODYC4L-ZEe-VptWBR8Qn9g" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ODYC4b-ZEe-VptWBR8Qn9g" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ODYC4r-ZEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ODYC47-ZEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Node" href="Blockchain_Based_Access_Control_example.uml#_ODXb0L-ZEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ODXb0r-ZEe-VptWBR8Qn9g" x="320" y="20" width="161" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_4vvQsL-ZEe-VptWBR8Qn9g" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4vvQsr-ZEe-VptWBR8Qn9g" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4vvQs7-ZEe-VptWBR8Qn9g" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_4vvQtL-ZEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4vvQtb-ZEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Node" href="Blockchain_Based_Access_Control_example.uml#_4vupoL-ZEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4vvQsb-ZEe-VptWBR8Qn9g" x="640" y="20" width="101" height="101"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__6xUAb-ZEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__6xUA7-ZEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__6xUBL-ZEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__6xUBb-ZEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__6xUBr-ZEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__6xUB7-ZEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__6xUCL-ZEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#__6xUAL-ZEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__6xUAr-ZEe-VptWBR8Qn9g" x="880" y="40" width="181" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_HEr9Ab-aEe-VptWBR8Qn9g" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HEskEL-aEe-VptWBR8Qn9g" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HEskEb-aEe-VptWBR8Qn9g" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_HEskEr-aEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HEskE7-aEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Node" href="Blockchain_Based_Access_Control_example.uml#_HEr9AL-aEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HEr9Ar-aEe-VptWBR8Qn9g" x="620" y="200" width="141" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_JgR1sL-aEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_JgR1sr-aEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JgR1s7-aEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JgR1tL-aEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_JgR1tb-aEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_JgR1tr-aEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgR1t7-aEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#_JgROoL-aEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JgR1sb-aEe-VptWBR8Qn9g" x="880" y="200" width="181" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_LmLyQL-aEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LmLyQr-aEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LmLyQ7-aEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LmLyRL-aEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LmLyRb-aEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LmLyRr-aEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LmLyR7-aEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#_LmLLML-aEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LmLyQb-aEe-VptWBR8Qn9g" x="880" y="320" width="181" height="81"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jVcc4L-aEe-VptWBR8Qn9g" type="Node_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jVcc4r-aEe-VptWBR8Qn9g" type="Node_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jVcc47-aEe-VptWBR8Qn9g" type="Node_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_jVcc5L-aEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jVcc5b-aEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Node" href="Blockchain_Based_Access_Control_example.uml#_jVb10L-aEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jVcc4b-aEe-VptWBR8Qn9g" x="480" y="420" width="121" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__dGrIL-aEe-VptWBR8Qn9g" type="Artifact_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="__dGrIr-aEe-VptWBR8Qn9g" type="Artifact_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="__dGrI7-aEe-VptWBR8Qn9g" type="Artifact_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__dGrJL-aEe-VptWBR8Qn9g" x="25"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="__dGrJb-aEe-VptWBR8Qn9g" type="Artifact_NestedArtifactCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__dGrJr-aEe-VptWBR8Qn9g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__dGrJ7-aEe-VptWBR8Qn9g"/>
+    </children>
+    <element xmi:type="uml:Artifact" href="Blockchain_Based_Access_Control_example.uml#__dGEEL-aEe-VptWBR8Qn9g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__dGrIb-aEe-VptWBR8Qn9g" x="660" y="560" width="141" height="81"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_eSg14b-XEe-VptWBR8Qn9g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_eSg14r-XEe-VptWBR8Qn9g"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eSg147-XEe-VptWBR8Qn9g" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="Blockchain_Based_Access_Control_example.uml#_cBDJkL-XEe-VptWBR8Qn9g"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Blockchain_Based_Access_Control_example.uml#_cBDJkL-XEe-VptWBR8Qn9g"/>
+  <edges xmi:type="notation:Connector" xmi:id="_S4OR8L-ZEe-VptWBR8Qn9g" type="Deployment_Edge" source="_hdd5gL-YEe-VptWBR8Qn9g" target="_ODXb0b-ZEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S4OR87-ZEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7G2wL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_S4OR9L-ZEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S4OR9b-ZEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7IE4L-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_S4OR9r-ZEe-VptWBR8Qn9g" x="-6" y="27"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_S4OR8b-ZEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_S4McwL-ZEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S4OR8r-ZEe-VptWBR8Qn9g" points="[201, -20, -643984, -643984]$[300, -20, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S4SjYL-ZEe-VptWBR8Qn9g" id="(1.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S4SjYb-ZEe-VptWBR8Qn9g" id="(0.0,0.594059405940594)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VXUxoL-ZEe-VptWBR8Qn9g" type="Deployment_Edge" source="_pBjLcL-XEe-VptWBR8Qn9g" target="_jzJM4L-XEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXUxo7-ZEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZeVqUL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VXUxpL-ZEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXUxpb-ZEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZeXfgL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VXUxpr-ZEe-VptWBR8Qn9g" x="-16" y="27"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VXUxob-ZEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_VXS8cL-ZEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VXUxor-ZEe-VptWBR8Qn9g" points="[-100, 240, -643984, -643984]$[320, 240, -643984, -643984]$[421, 240, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXYcAL-ZEe-VptWBR8Qn9g" id="(1.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXYcAb-ZEe-VptWBR8Qn9g" id="(0.0,0.19900497512437812)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Wxd0YL-ZEe-VptWBR8Qn9g" type="Deployment_Edge" source="_8qXlIb-XEe-VptWBR8Qn9g" target="_jzJM4L-XEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Wxd0Y7-ZEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Zw-5gL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Wxd0ZL-ZEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Wxd0Zb-ZEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ZxAHoL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Wxd0Zr-ZEe-VptWBR8Qn9g" x="-13" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Wxd0Yb-ZEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_WxbYIL-ZEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Wxd0Yr-ZEe-VptWBR8Qn9g" points="[300, 360, -643984, -643984]$[201, 360, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WxhewL-ZEe-VptWBR8Qn9g" id="(1.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Wxhewb-ZEe-VptWBR8Qn9g" id="(0.0,0.7960199004975125)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fUwEEL-ZEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_ODXb0b-ZEe-VptWBR8Qn9g" target="_jzJM4L-XEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fUwEE7-ZEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7DzcL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fUwEFL-ZEe-VptWBR8Qn9g" x="7" y="31"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fUwEFb-ZEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_w7FooL-ZEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fUwEFr-ZEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fUwEEb-ZEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_fUtn0L-ZEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fUwEEr-ZEe-VptWBR8Qn9g" points="[380, 81, -643984, -643984]$[380, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fU0VgL-ZEe-VptWBR8Qn9g" id="(0.4968944099378882,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fU0Vgb-ZEe-VptWBR8Qn9g" id="(0.49586776859504134,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_9CoCML-ZEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_4vvQsL-ZEe-VptWBR8Qn9g" target="_ODXb0b-ZEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9CoCM7-ZEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iO7gwL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9CoCNL-ZEe-VptWBR8Qn9g" x="20" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9CoCNb-ZEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iO99AL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9CoCNr-ZEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9CoCMb-ZEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_9Cll8L-ZEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9CoCMr-ZEe-VptWBR8Qn9g" points="[660, 80, -643984, -643984]$[481, 80, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Cs6sL-ZEe-VptWBR8Qn9g" id="(0.0,0.594059405940594)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9Cs6sb-ZEe-VptWBR8Qn9g" id="(1.0,0.594059405940594)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_D6stQL-aEe-VptWBR8Qn9g" type="Deployment_Edge" source="__6xUAb-ZEe-VptWBR8Qn9g" target="_4vvQsL-ZEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_D6stQ7-aEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_S9k2kL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_D6stRL-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_D6stRb-aEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_S9nS0L-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_D6stRr-aEe-VptWBR8Qn9g" x="-3" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_D6stQb-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_D6qRAL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_D6stQr-aEe-VptWBR8Qn9g" points="[880, 80, -643984, -643984]$[761, 80, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D6xlwL-aEe-VptWBR8Qn9g" id="(0.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_D6xlwb-aEe-VptWBR8Qn9g" id="(1.0,0.594059405940594)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PkPjQL-aEe-VptWBR8Qn9g" type="Deployment_Edge" source="_JgR1sL-aEe-VptWBR8Qn9g" target="_HEr9Ab-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_PkPjQ7-aEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMR8gL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PkPjRL-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PkPjRb-aEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMU_0L-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PkPjRr-aEe-VptWBR8Qn9g" x="-3" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PkPjQb-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_PkNHAL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PkPjQr-aEe-VptWBR8Qn9g" points="[900, 240, -643984, -643984]$[781, 240, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PkVp4L-aEe-VptWBR8Qn9g" id="(0.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PkVp4b-aEe-VptWBR8Qn9g" id="(1.0,0.19900497512437812)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RDrVsL-aEe-VptWBR8Qn9g" type="Deployment_Edge" source="_LmLyQL-aEe-VptWBR8Qn9g" target="_HEr9Ab-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RDrVs7-aEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMXcEL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RDrVtL-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RDrVtb-aEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_SMZ4UL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RDrVtr-aEe-VptWBR8Qn9g" x="-3" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RDrVsb-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_RDl2IL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RDrVsr-aEe-VptWBR8Qn9g" points="[900, 360, -643984, -643984]$[781, 360, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RDyDYL-aEe-VptWBR8Qn9g" id="(0.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RDyDYb-aEe-VptWBR8Qn9g" id="(1.0,0.7960199004975125)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cGNPAL-aEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_4vvQsL-ZEe-VptWBR8Qn9g" target="_HEr9Ab-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cGNPA7-aEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iPBAUL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cGNPBL-aEe-VptWBR8Qn9g" x="7" y="-31"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cGNPBb-aEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_iPDckL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cGNPBr-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cGNPAb-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_cGJkoL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cGNPAr-aEe-VptWBR8Qn9g" points="[700, 121, -643984, -643984]$[700, 200, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cGTVoL-aEe-VptWBR8Qn9g" id="(0.39603960396039606,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cGTVob-aEe-VptWBR8Qn9g" id="(0.425531914893617,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wRn_cL-aEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_jzJM4L-XEe-VptWBR8Qn9g" target="_jVcc4L-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wRn_c7-aEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_xUPTAL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wRn_dL-aEe-VptWBR8Qn9g" x="7" y="30"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wRn_db-aEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_xUSWUL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wRn_dr-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wRn_cb-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_wRkVEL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wRn_cr-aEe-VptWBR8Qn9g" points="[400, 401, -643984, -643984]$[400, 500, -643984, -643984]$[480, 500, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wRuGEL-aEe-VptWBR8Qn9g" id="(0.49586776859504134,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wRuGEb-aEe-VptWBR8Qn9g" id="(0.0,0.6611570247933884)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0cQM0L-aEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_HEr9Ab-aEe-VptWBR8Qn9g" target="_jVcc4L-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0cQM07-aEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1_0RUL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0cQM1L-aEe-VptWBR8Qn9g" x="-3" y="-38"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0cQM1b-aEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1_3UoL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0cQM1r-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0cQM0b-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_0cMicL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0cQM0r-aEe-VptWBR8Qn9g" points="[700, 401, -643984, -643984]$[680, 500, -643984, -643984]$[601, 500, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0cW6gL-aEe-VptWBR8Qn9g" id="(0.425531914893617,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0cW6gb-aEe-VptWBR8Qn9g" id="(1.0,0.6611570247933884)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4fq-8L-aEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_jzJM4L-XEe-VptWBR8Qn9g" target="_HEr9Ab-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4fq-87-aEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_6BIxsL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4fq-9L-aEe-VptWBR8Qn9g" y="27"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4fq-9b-aEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_6BL1AL-aEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4fq-9r-aEe-VptWBR8Qn9g" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4fq-8b-aEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:CommunicationPath" href="Blockchain_Based_Access_Control_example.uml#_4fmtgL-aEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4fq-8r-aEe-VptWBR8Qn9g" points="[461, 300, -643984, -643984]$[640, 300, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4fxsoL-aEe-VptWBR8Qn9g" id="(1.0,0.4975124378109453)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4fxsob-aEe-VptWBR8Qn9g" id="(0.0,0.4975124378109453)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_CEfkIL-bEe-VptWBR8Qn9g" type="Deployment_Edge" source="__dGrIL-aEe-VptWBR8Qn9g" target="_jVcc4L-aEe-VptWBR8Qn9g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CEfkI7-bEe-VptWBR8Qn9g" type="Deployment_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DD_SQL-bEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CEfkJL-bEe-VptWBR8Qn9g" x="-1" y="58"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CEfkJb-bEe-VptWBR8Qn9g" type="Deployment_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_DECVkL-bEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CEfkJr-bEe-VptWBR8Qn9g" x="-13" y="-27"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CEfkIb-bEe-VptWBR8Qn9g"/>
+    <element xmi:type="uml:Deployment" href="Blockchain_Based_Access_Control_example.uml#_CEb5wL-bEe-VptWBR8Qn9g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CEfkIr-bEe-VptWBR8Qn9g" points="[660, 600, -643984, -643984]$[540, 600, -643984, -643984]$[540, 541, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEouEL-bEe-VptWBR8Qn9g" id="(0.0,0.49382716049382713)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CEouEb-bEe-VptWBR8Qn9g" id="(0.49586776859504134,0.9917355371900827)"/>
+  </edges>
+</notation:Diagram>

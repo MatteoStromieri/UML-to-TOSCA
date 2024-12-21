@@ -31,14 +31,14 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_xTBv4L-LEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_nekosL-KEe-VptWBR8Qn9g"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_2zZBIL-LEe-VptWBR8Qn9g" client="_ffDp4L-JEe-VptWBR8Qn9g" supplier="_pOsigL-KEe-VptWBR8Qn9g"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_VDoFcL-MEe-VptWBR8Qn9g" client="_8v2VUL-HEe-VptWBR8Qn9g" supplier="_pOsigL-KEe-VptWBR8Qn9g"/>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_ikgQgL-MEe-VptWBR8Qn9g" name="TCP/IP" memberEnd="_ikg3kr-MEe-VptWBR8Qn9g _ikg3k7-MEe-VptWBR8Qn9g">
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_ikgQgL-MEe-VptWBR8Qn9g" name="&lt;&lt;TCP/IP>>" memberEnd="_ikg3kr-MEe-VptWBR8Qn9g _ikg3k7-MEe-VptWBR8Qn9g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ikg3kL-MEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ikg3kb-MEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ikg3kr-MEe-VptWBR8Qn9g" name="clientstud" type="_tcXkML-HEe-VptWBR8Qn9g" association="_ikgQgL-MEe-VptWBR8Qn9g"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ikg3k7-MEe-VptWBR8Qn9g" name="server" type="_IA_ngL-KEe-VptWBR8Qn9g" association="_ikgQgL-MEe-VptWBR8Qn9g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_uFuQ8L-MEe-VptWBR8Qn9g" name="TCP/IP" memberEnd="_uFuQ87-MEe-VptWBR8Qn9g _uFu4AL-MEe-VptWBR8Qn9g">
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_uFuQ8L-MEe-VptWBR8Qn9g" name="&lt;&lt;TCP/IP>>" memberEnd="_uFuQ87-MEe-VptWBR8Qn9g _uFu4AL-MEe-VptWBR8Qn9g">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uFuQ8b-MEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uFuQ8r-MEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
     </eAnnotations>

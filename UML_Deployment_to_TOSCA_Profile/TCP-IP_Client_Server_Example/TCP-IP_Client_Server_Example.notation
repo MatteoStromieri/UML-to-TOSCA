@@ -31,7 +31,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tcYLRb-HEe-VptWBR8Qn9g"/>
     </children>
     <element xmi:type="uml:Node" href="TCP-IP_Client_Server_Example.uml#_tcXkML-HEe-VptWBR8Qn9g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tcYLQb-HEe-VptWBR8Qn9g" x="360" y="40" width="261" height="341"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tcYLQb-HEe-VptWBR8Qn9g" x="340" y="40" width="261" height="341"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_afoigL-JEe-VptWBR8Qn9g" type="Node_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_afoigr-JEe-VptWBR8Qn9g" type="Node_NameLabel"/>
@@ -76,7 +76,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afoihb-JEe-VptWBR8Qn9g"/>
     </children>
     <element xmi:type="uml:Node" href="TCP-IP_Client_Server_Example.uml#_afn7cL-JEe-VptWBR8Qn9g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afoigb-JEe-VptWBR8Qn9g" x="80" y="420" width="541" height="341"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afoigb-JEe-VptWBR8Qn9g" x="60" y="420" width="541" height="341"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_IBAOkL-KEe-VptWBR8Qn9g" type="Node_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_IBAOkr-KEe-VptWBR8Qn9g" type="Node_NameLabel"/>
@@ -164,7 +164,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_PLfKMb-IEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_PLejIL-IEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PLfKMr-IEe-VptWBR8Qn9g" points="[480, 201, -643984, -643984]$[460, 260, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PLfKMr-IEe-VptWBR8Qn9g" points="[460, 201, -643984, -643984]$[440, 260, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PLjboL-IEe-VptWBR8Qn9g" id="(0.4968944099378882,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PLjbob-IEe-VptWBR8Qn9g" id="(0.4968944099378882,0.0)"/>
   </edges>
@@ -179,7 +179,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_xzUrcb-JEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_xzUEYL-JEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xzUrcr-JEe-VptWBR8Qn9g" points="[460, 581, -643984, -643984]$[460, 640, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xzUrcr-JEe-VptWBR8Qn9g" points="[440, 581, -643984, -643984]$[440, 640, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xzayEL-JEe-VptWBR8Qn9g" id="(0.4968944099378882,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xzayEb-JEe-VptWBR8Qn9g" id="(0.4968944099378882,0.0)"/>
   </edges>
@@ -194,7 +194,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_0p2Mob-JEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_0p1lkL-JEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0p2Mor-JEe-VptWBR8Qn9g" points="[380, 540, -643984, -643984]$[301, 540, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0p2Mor-JEe-VptWBR8Qn9g" points="[360, 540, -643984, -643984]$[281, 540, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0p8TQL-JEe-VptWBR8Qn9g" id="(0.0,0.49382716049382713)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0p8TQb-JEe-VptWBR8Qn9g" id="(1.0,0.49382716049382713)"/>
   </edges>
@@ -284,7 +284,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_uWBzQb-LEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_uWBMML-LEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uWBzQr-LEe-VptWBR8Qn9g" points="[561, 160, -643984, -643984]$[660, 160, -643984, -643984]$[660, 380, -643984, -643984]$[680, 380, -643984, -643984]$[680, 380, -643984, -643984]$[880, 380, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uWBzQr-LEe-VptWBR8Qn9g" points="[541, 160, -643984, -643984]$[640, 160, -643984, -643984]$[640, 380, -643984, -643984]$[680, 380, -643984, -643984]$[680, 380, -643984, -643984]$[880, 380, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uWK9ML-LEe-VptWBR8Qn9g" id="(1.0,0.49382716049382713)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uWK9Mb-LEe-VptWBR8Qn9g" id="(0.0,0.24691358024691357)"/>
   </edges>
@@ -299,7 +299,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_xTCW8b-LEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_xTBv4L-LEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xTCW8r-LEe-VptWBR8Qn9g" points="[541, 520, -643984, -643984]$[660, 520, -643984, -643984]$[660, 420, -643984, -643984]$[880, 420, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xTCW8r-LEe-VptWBR8Qn9g" points="[521, 520, -643984, -643984]$[640, 520, -643984, -643984]$[640, 420, -643984, -643984]$[880, 420, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTLg4L-LEe-VptWBR8Qn9g" id="(1.0,0.24691358024691357)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xTLg4b-LEe-VptWBR8Qn9g" id="(0.0,0.7407407407407407)"/>
   </edges>
@@ -314,7 +314,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_2zZoMb-LEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_2zZBIL-LEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2zZoMr-LEe-VptWBR8Qn9g" points="[541, 560, -643984, -643984]$[660, 560, -643984, -643984]$[660, 700, -643984, -643984]$[1440, 700, -643984, -643984]$[1440, 420, -643984, -643984]$[1321, 420, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2zZoMr-LEe-VptWBR8Qn9g" points="[521, 560, -643984, -643984]$[640, 560, -643984, -643984]$[640, 700, -643984, -643984]$[1440, 700, -643984, -643984]$[1440, 420, -643984, -643984]$[1321, 420, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ziLEL-LEe-VptWBR8Qn9g" id="(1.0,0.7407407407407407)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2ziyIL-LEe-VptWBR8Qn9g" id="(1.0,0.7407407407407407)"/>
   </edges>
@@ -329,14 +329,14 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_VDosgb-MEe-VptWBR8Qn9g"/>
     <element xmi:type="uml:Dependency" href="TCP-IP_Client_Server_Example.uml#_VDoFcL-MEe-VptWBR8Qn9g"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VDosgr-MEe-VptWBR8Qn9g" points="[480, 120, -643984, -643984]$[480, 0, -643984, -643984]$[1440, 0, -643984, -643984]$[1440, 380, -643984, -643984]$[1321, 380, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VDosgr-MEe-VptWBR8Qn9g" points="[460, 120, -643984, -643984]$[460, 0, -643984, -643984]$[1440, 0, -643984, -643984]$[1440, 380, -643984, -643984]$[1321, 380, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VDzEkL-MEe-VptWBR8Qn9g" id="(0.4968944099378882,0.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VDzEkb-MEe-VptWBR8Qn9g" id="(1.0,0.24691358024691357)"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_iklJAL-MEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_IBAOkL-KEe-VptWBR8Qn9g" target="_tcYLQL-HEe-VptWBR8Qn9g">
     <children xmi:type="notation:DecorationNode" xmi:id="_iklJA7-MEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_m0mMsL-MEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_iklJBL-MEe-VptWBR8Qn9g" x="-27" y="13"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iklJBL-MEe-VptWBR8Qn9g" x="-23" y="13"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_iklJBb-MEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_m0qeIL-MEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -351,7 +351,7 @@
   <edges xmi:type="notation:Connector" xmi:id="_uFzJcL-MEe-VptWBR8Qn9g" type="CommunicationPath_Edge" source="_afoigL-JEe-VptWBR8Qn9g" target="_IBAOkL-KEe-VptWBR8Qn9g">
     <children xmi:type="notation:DecorationNode" xmi:id="_uFzJc7-MEe-VptWBR8Qn9g" type="CommunicationPath_NameLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0APuoL-MEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_uFzJdL-MEe-VptWBR8Qn9g" x="28" y="-13"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uFzJdL-MEe-VptWBR8Qn9g" x="14" y="-13"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_uFzJdb-MEe-VptWBR8Qn9g" type="CommunicationPath_StereotypeLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_0AUAEL-MEe-VptWBR8Qn9g" name="IS_UPDATED_POSITION" booleanValue="true"/>

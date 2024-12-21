@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_cBDJkL-XEe-VptWBR8Qn9g" name="Blockchain_Based_Access_Control_example">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_cBP94L-XEe-VptWBR8Qn9g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_jzIl0L-XEe-VptWBR8Qn9g" name="IoT Device">
+    <deployment xmi:type="uml:Deployment" xmi:id="_VXS8cL-ZEe-VptWBR8Qn9g" client="_jzIl0L-XEe-VptWBR8Qn9g" supplier="_pBh9UL-XEe-VptWBR8Qn9g" deployedArtifact="_pBh9UL-XEe-VptWBR8Qn9g"/>
+    <deployment xmi:type="uml:Deployment" xmi:id="_WxbYIL-ZEe-VptWBR8Qn9g" client="_jzIl0L-XEe-VptWBR8Qn9g _cBDJkL-XEe-VptWBR8Qn9g" supplier="_8qXlIL-XEe-VptWBR8Qn9g" deployedArtifact="_8qXlIL-XEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_pBh9UL-XEe-VptWBR8Qn9g" name="Data Collection Service" fileName=""/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_8qXlIL-XEe-VptWBR8Qn9g" name="Blockchain Service" fileName=""/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_hddScL-YEe-VptWBR8Qn9g" name="Data Upload Service" fileName=""/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_ODXb0L-ZEe-VptWBR8Qn9g" name="IoT Gateway Node">
+    <deployment xmi:type="uml:Deployment" xmi:id="_S4McwL-ZEe-VptWBR8Qn9g" client="_ODXb0L-ZEe-VptWBR8Qn9g" supplier="_hddScL-YEe-VptWBR8Qn9g" deployedArtifact="_hddScL-YEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_fUtn0L-ZEe-VptWBR8Qn9g" name="WIFI / RJ45" memberEnd="_fUuO4r-ZEe-VptWBR8Qn9g _fUuO47-ZEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fUuO4L-ZEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fUuO4b-ZEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fUuO4r-ZEe-VptWBR8Qn9g" name="iot device" type="_jzIl0L-XEe-VptWBR8Qn9g" association="_fUtn0L-ZEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fUuO47-ZEe-VptWBR8Qn9g" name="iot gateway node" type="_ODXb0L-ZEe-VptWBR8Qn9g" association="_fUtn0L-ZEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_4vupoL-ZEe-VptWBR8Qn9g" name="IPFS Node">
+    <deployment xmi:type="uml:Deployment" xmi:id="_D6qRAL-aEe-VptWBR8Qn9g" client="_4vupoL-ZEe-VptWBR8Qn9g" supplier="__6xUAL-ZEe-VptWBR8Qn9g" deployedArtifact="__6xUAL-ZEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_9Cll8L-ZEe-VptWBR8Qn9g" name="IPFS" memberEnd="_9CmNAr-ZEe-VptWBR8Qn9g _9CmNA7-ZEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9CmNAL-ZEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9CmNAb-ZEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9CmNAr-ZEe-VptWBR8Qn9g" name="iot gateway node" type="_ODXb0L-ZEe-VptWBR8Qn9g" association="_9Cll8L-ZEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9CmNA7-ZEe-VptWBR8Qn9g" name="ipfs node" type="_4vupoL-ZEe-VptWBR8Qn9g" association="_9Cll8L-ZEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="__6xUAL-ZEe-VptWBR8Qn9g" name="Distributed Storage Service"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_HEr9AL-aEe-VptWBR8Qn9g" name="SGX Server Node">
+    <deployment xmi:type="uml:Deployment" xmi:id="_PkNHAL-aEe-VptWBR8Qn9g" client="_HEr9AL-aEe-VptWBR8Qn9g" supplier="_JgROoL-aEe-VptWBR8Qn9g" deployedArtifact="_JgROoL-aEe-VptWBR8Qn9g"/>
+    <deployment xmi:type="uml:Deployment" xmi:id="_RDl2IL-aEe-VptWBR8Qn9g" client="_HEr9AL-aEe-VptWBR8Qn9g" supplier="_LmLLML-aEe-VptWBR8Qn9g" deployedArtifact="_LmLLML-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_JgROoL-aEe-VptWBR8Qn9g" name="Blockchain Service"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_LmLLML-aEe-VptWBR8Qn9g" name="Trusted Computing Service" fileName=""/>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_cGJkoL-aEe-VptWBR8Qn9g" name="IPFS" memberEnd="_cGKLsL-aEe-VptWBR8Qn9g _cGKLsb-aEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cGJkob-aEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cGJkor-aEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cGKLsL-aEe-VptWBR8Qn9g" name="sgx server node" type="_HEr9AL-aEe-VptWBR8Qn9g" association="_cGJkoL-aEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cGKLsb-aEe-VptWBR8Qn9g" name="ipfs node" type="_4vupoL-ZEe-VptWBR8Qn9g" association="_cGJkoL-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Node" xmi:id="_jVb10L-aEe-VptWBR8Qn9g" name="Client Node">
+    <deployment xmi:type="uml:Deployment" xmi:id="_CEb5wL-bEe-VptWBR8Qn9g" client="_jVb10L-aEe-VptWBR8Qn9g" supplier="__dGEEL-aEe-VptWBR8Qn9g _cBDJkL-XEe-VptWBR8Qn9g" deployedArtifact="__dGEEL-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_wRkVEL-aEe-VptWBR8Qn9g" name="P2P" memberEnd="_wRkVE7-aEe-VptWBR8Qn9g _wRk8IL-aEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wRkVEb-aEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wRkVEr-aEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wRkVE7-aEe-VptWBR8Qn9g" name="client node" type="_jVb10L-aEe-VptWBR8Qn9g" association="_wRkVEL-aEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wRk8IL-aEe-VptWBR8Qn9g" name="iot device" type="_jzIl0L-XEe-VptWBR8Qn9g" association="_wRkVEL-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_0cMicL-aEe-VptWBR8Qn9g" name="HTTPS" memberEnd="_0cMic7-aEe-VptWBR8Qn9g _0cNJgL-aEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0cMicb-aEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0cMicr-aEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0cMic7-aEe-VptWBR8Qn9g" name="client node" type="_jVb10L-aEe-VptWBR8Qn9g" association="_0cMicL-aEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0cNJgL-aEe-VptWBR8Qn9g" name="sgx server node" type="_HEr9AL-aEe-VptWBR8Qn9g" association="_0cMicL-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_4fmtgL-aEe-VptWBR8Qn9g" name="P2P" memberEnd="_4fnUkr-aEe-VptWBR8Qn9g _4fnUk7-aEe-VptWBR8Qn9g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fnUkL-aEe-VptWBR8Qn9g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fnUkb-aEe-VptWBR8Qn9g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4fnUkr-aEe-VptWBR8Qn9g" name="sgx server node" type="_HEr9AL-aEe-VptWBR8Qn9g" association="_4fmtgL-aEe-VptWBR8Qn9g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4fnUk7-aEe-VptWBR8Qn9g" name="iot device" type="_jzIl0L-XEe-VptWBR8Qn9g" association="_4fmtgL-aEe-VptWBR8Qn9g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="__dGEEL-aEe-VptWBR8Qn9g" name="Blockchain Service" fileName=""/>
+</uml:Model>
