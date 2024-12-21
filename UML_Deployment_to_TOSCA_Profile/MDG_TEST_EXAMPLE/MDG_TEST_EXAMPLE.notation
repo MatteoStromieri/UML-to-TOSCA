@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_ob3UML-GEe-VptWBR8Qn9g" type="PapyrusUMLDeploymentDiagram" name="NewDeploymentDiagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_t24LYL-GEe-VptWBR8Qn9g" type="Device_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_t24LYr-GEe-VptWBR8Qn9g" type="Device_NameLabel"/>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_t24LY7-GEe-VptWBR8Qn9g" type="Device_NestedNodeCompartment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_t24LZL-GEe-VptWBR8Qn9g"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t24LZb-GEe-VptWBR8Qn9g"/>
+    </children>
+    <element href="MDG_TEST_EXAMPLE.uml#_t229QL-GEe-VptWBR8Qn9g"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_t24LYb-GEe-VptWBR8Qn9g" x="460" y="220"/>
+  </children>
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_ob3UMb-GEe-VptWBR8Qn9g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_ob3UMr-GEe-VptWBR8Qn9g"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_ob3UM7-GEe-VptWBR8Qn9g" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner href="MDG_TEST_EXAMPLE.uml#_LcPjML-GEe-VptWBR8Qn9g"/>
+  </styles>
+  <element href="MDG_TEST_EXAMPLE.uml#_LcPjML-GEe-VptWBR8Qn9g"/>
+</notation:Diagram>
