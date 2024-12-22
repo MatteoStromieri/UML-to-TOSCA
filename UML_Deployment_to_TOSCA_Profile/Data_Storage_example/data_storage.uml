@@ -1,61 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_yTId4L7OEe-1_rTKxio1mg" name="data_storage">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_yUtLML7OEe-1_rTKxio1mg">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
-  <packagedElement xmi:type="uml:Node" xmi:id="_Gn7z0L7PEe-1_rTKxio1mg" name="Client Device" visibility="public">
-    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_JK8jIL7PEe-1_rTKxio1mg" name="Android">
-      <deployment xmi:type="uml:Deployment" xmi:id="_NZhcYL7PEe-1_rTKxio1mg" client="_JK8jIL7PEe-1_rTKxio1mg" supplier="_Lb0ZkL7PEe-1_rTKxio1mg" deployedArtifact="_Lb0ZkL7PEe-1_rTKxio1mg"/>
-    </nestedNode>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_Lb0ZkL7PEe-1_rTKxio1mg" name="Bank Application"/>
-  <packagedElement xmi:type="uml:Node" xmi:id="_PBmNcL7PEe-1_rTKxio1mg" name="Web Service"/>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_RvCEEL7PEe-1_rTKxio1mg" memberEnd="_RvCrIr7PEe-1_rTKxio1mg _RvDSML7PEe-1_rTKxio1mg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RvCrIL7PEe-1_rTKxio1mg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RvCrIb7PEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_RvCrIr7PEe-1_rTKxio1mg" name="web service" type="_PBmNcL7PEe-1_rTKxio1mg" association="_RvCEEL7PEe-1_rTKxio1mg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_RvDSML7PEe-1_rTKxio1mg" name="client device" type="_Gn7z0L7PEe-1_rTKxio1mg" association="_RvCEEL7PEe-1_rTKxio1mg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Node" xmi:id="_Tn2m4L7PEe-1_rTKxio1mg" name="Application Server">
-    <deployment xmi:type="uml:Deployment" xmi:id="_g-nzsL7PEe-1_rTKxio1mg" client="_Tn2m4L7PEe-1_rTKxio1mg" supplier="_b0U5EL7PEe-1_rTKxio1mg" deployedArtifact="_b0U5EL7PEe-1_rTKxio1mg"/>
-    <deployment xmi:type="uml:Deployment" xmi:id="_hvOxQL7PEe-1_rTKxio1mg" client="_Tn2m4L7PEe-1_rTKxio1mg" supplier="_eOB7YL7PEe-1_rTKxio1mg" deployedArtifact="_eOB7YL7PEe-1_rTKxio1mg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_YM5fYL7PEe-1_rTKxio1mg" memberEnd="_YM6Gcr7PEe-1_rTKxio1mg _YM6tgL7PEe-1_rTKxio1mg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YM6GcL7PEe-1_rTKxio1mg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YM6Gcb7PEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YM6Gcr7PEe-1_rTKxio1mg" name="application server" type="_Tn2m4L7PEe-1_rTKxio1mg" association="_YM5fYL7PEe-1_rTKxio1mg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_YM6tgL7PEe-1_rTKxio1mg" name="web service" type="_PBmNcL7PEe-1_rTKxio1mg" association="_YM5fYL7PEe-1_rTKxio1mg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_b0U5EL7PEe-1_rTKxio1mg" name="Bank Application Backend"/>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_eOB7YL7PEe-1_rTKxio1mg" name="Bank Application Backend"/>
-  <packagedElement xmi:type="uml:Node" xmi:id="_ldkEML7PEe-1_rTKxio1mg" name="Workstation">
-    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_3HtKsL7PEe-1_rTKxio1mg" name="Linux OS">
-      <deployment xmi:type="uml:Deployment" xmi:id="_e7gP8L7QEe-1_rTKxio1mg" client="_3HtKsL7PEe-1_rTKxio1mg" supplier="_9L5hwL7PEe-1_rTKxio1mg" deployedArtifact="_9L5hwL7PEe-1_rTKxio1mg"/>
-    </nestedNode>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Node" xmi:id="_nzojsL7PEe-1_rTKxio1mg" name="Data Storage "/>
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_9L5hwL7PEe-1_rTKxio1mg" name="DBMS"/>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_CuFX8L7QEe-1_rTKxio1mg" name="cable" memberEnd="_CuF_Ar7QEe-1_rTKxio1mg _CuGmEL7QEe-1_rTKxio1mg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CuF_AL7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CuF_Ab7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_CuF_Ar7QEe-1_rTKxio1mg" name="data storage " type="_nzojsL7PEe-1_rTKxio1mg" association="_CuFX8L7QEe-1_rTKxio1mg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_CuGmEL7QEe-1_rTKxio1mg" name="workstation" type="_ldkEML7PEe-1_rTKxio1mg" association="_CuFX8L7QEe-1_rTKxio1mg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_PjUlAL7QEe-1_rTKxio1mg" name="manages" memberEnd="_PjVMEr7QEe-1_rTKxio1mg _PjVzIL7QEe-1_rTKxio1mg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PjVMEL7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PjVMEb7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_PjVMEr7QEe-1_rTKxio1mg" name="data storage " type="_nzojsL7PEe-1_rTKxio1mg" association="_PjUlAL7QEe-1_rTKxio1mg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_PjVzIL7QEe-1_rTKxio1mg" name="linux os" type="_3HtKsL7PEe-1_rTKxio1mg" association="_PjUlAL7QEe-1_rTKxio1mg"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_TcwUsL7QEe-1_rTKxio1mg" memberEnd="_Tcxi0r7QEe-1_rTKxio1mg _TcyJ4L7QEe-1_rTKxio1mg">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tcxi0L7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tcxi0b7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Tcxi0r7QEe-1_rTKxio1mg" name="workstation" type="_ldkEML7PEe-1_rTKxio1mg" association="_TcwUsL7QEe-1_rTKxio1mg"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_TcyJ4L7QEe-1_rTKxio1mg" name="application server" type="_Tn2m4L7PEe-1_rTKxio1mg" association="_TcwUsL7QEe-1_rTKxio1mg"/>
-  </packagedElement>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_Deployment_to_TOSCA_Profile="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7 ../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w">
+  <uml:Model xmi:id="_yTId4L7OEe-1_rTKxio1mg" name="data_storage">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_yUtLML7OEe-1_rTKxio1mg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Node" xmi:id="_Gn7z0L7PEe-1_rTKxio1mg" name="Client Device" visibility="public">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_JK8jIL7PEe-1_rTKxio1mg" name="Android">
+        <deployment xmi:type="uml:Deployment" xmi:id="_NZhcYL7PEe-1_rTKxio1mg" client="_JK8jIL7PEe-1_rTKxio1mg" supplier="_Lb0ZkL7PEe-1_rTKxio1mg" deployedArtifact="_Lb0ZkL7PEe-1_rTKxio1mg"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_Lb0ZkL7PEe-1_rTKxio1mg" name="Bank Application"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_PBmNcL7PEe-1_rTKxio1mg" name="Web Server">
+      <deployment xmi:type="uml:Deployment" xmi:id="_FXrRcMByEe-XStdhozwh7A" client="_PBmNcL7PEe-1_rTKxio1mg" supplier="_DX384MByEe-XStdhozwh7A" deployedArtifact="_DX384MByEe-XStdhozwh7A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_RvCEEL7PEe-1_rTKxio1mg" memberEnd="_RvCrIr7PEe-1_rTKxio1mg _RvDSML7PEe-1_rTKxio1mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RvCrIL7PEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RvCrIb7PEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RvCrIr7PEe-1_rTKxio1mg" name="web service" type="_PBmNcL7PEe-1_rTKxio1mg" association="_RvCEEL7PEe-1_rTKxio1mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RvDSML7PEe-1_rTKxio1mg" name="client device" type="_Gn7z0L7PEe-1_rTKxio1mg" association="_RvCEEL7PEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_Tn2m4L7PEe-1_rTKxio1mg" name="Application Server">
+      <deployment xmi:type="uml:Deployment" xmi:id="_g-nzsL7PEe-1_rTKxio1mg" client="_Tn2m4L7PEe-1_rTKxio1mg" supplier="_b0U5EL7PEe-1_rTKxio1mg" deployedArtifact="_b0U5EL7PEe-1_rTKxio1mg"/>
+      <deployment xmi:type="uml:Deployment" xmi:id="_hvOxQL7PEe-1_rTKxio1mg" client="_Tn2m4L7PEe-1_rTKxio1mg" supplier="_eOB7YL7PEe-1_rTKxio1mg" deployedArtifact="_eOB7YL7PEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_YM5fYL7PEe-1_rTKxio1mg" memberEnd="_YM6Gcr7PEe-1_rTKxio1mg _YM6tgL7PEe-1_rTKxio1mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YM6GcL7PEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YM6Gcb7PEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YM6Gcr7PEe-1_rTKxio1mg" name="application server" type="_Tn2m4L7PEe-1_rTKxio1mg" association="_YM5fYL7PEe-1_rTKxio1mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YM6tgL7PEe-1_rTKxio1mg" name="web service" type="_PBmNcL7PEe-1_rTKxio1mg" association="_YM5fYL7PEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_b0U5EL7PEe-1_rTKxio1mg" name="Bank Application Backend"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_eOB7YL7PEe-1_rTKxio1mg" name="Bank Application Backend"/>
+    <packagedElement xmi:type="uml:Node" xmi:id="_ldkEML7PEe-1_rTKxio1mg" name="Workstation">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_3HtKsL7PEe-1_rTKxio1mg" name="Linux OS">
+        <deployment xmi:type="uml:Deployment" xmi:id="_e7gP8L7QEe-1_rTKxio1mg" client="_3HtKsL7PEe-1_rTKxio1mg" supplier="_9L5hwL7PEe-1_rTKxio1mg" deployedArtifact="_9L5hwL7PEe-1_rTKxio1mg"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_nzojsL7PEe-1_rTKxio1mg" name="Data Storage "/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_9L5hwL7PEe-1_rTKxio1mg" name="DBMS"/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_CuFX8L7QEe-1_rTKxio1mg" name="cable" memberEnd="_CuF_Ar7QEe-1_rTKxio1mg _CuGmEL7QEe-1_rTKxio1mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CuF_AL7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CuF_Ab7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_CuF_Ar7QEe-1_rTKxio1mg" name="data storage " type="_nzojsL7PEe-1_rTKxio1mg" association="_CuFX8L7QEe-1_rTKxio1mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_CuGmEL7QEe-1_rTKxio1mg" name="workstation" type="_ldkEML7PEe-1_rTKxio1mg" association="_CuFX8L7QEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_PjUlAL7QEe-1_rTKxio1mg" name="manages" memberEnd="_PjVMEr7QEe-1_rTKxio1mg _PjVzIL7QEe-1_rTKxio1mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PjVMEL7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PjVMEb7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PjVMEr7QEe-1_rTKxio1mg" name="data storage " type="_nzojsL7PEe-1_rTKxio1mg" association="_PjUlAL7QEe-1_rTKxio1mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PjVzIL7QEe-1_rTKxio1mg" name="linux os" type="_3HtKsL7PEe-1_rTKxio1mg" association="_PjUlAL7QEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_TcwUsL7QEe-1_rTKxio1mg" memberEnd="_Tcxi0r7QEe-1_rTKxio1mg _TcyJ4L7QEe-1_rTKxio1mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tcxi0L7QEe-1_rTKxio1mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tcxi0b7QEe-1_rTKxio1mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Tcxi0r7QEe-1_rTKxio1mg" name="workstation" type="_ldkEML7PEe-1_rTKxio1mg" association="_TcwUsL7QEe-1_rTKxio1mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_TcyJ4L7QEe-1_rTKxio1mg" name="application server" type="_Tn2m4L7PEe-1_rTKxio1mg" association="_TcwUsL7QEe-1_rTKxio1mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_DX384MByEe-XStdhozwh7A" name="Web Server Application"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NibXQMBwEe-XStdhozwh7A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NikhMMBwEe-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_8Cbm8L0cEe-PEL9IrliJmQ"/>
+    </profileApplication>
+  </uml:Model>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_t7CA0MBxEe-XStdhozwh7A" base_Node="_Gn7z0L7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_t7xAoMBxEe-XStdhozwh7A" base_Node="_Gn7z0L7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_x0GkIMBxEe-XStdhozwh7A" base_Node="_JK8jIL7PEe-1_rTKxio1mg" base_ExecutionEnvironment="_JK8jIL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_x0vdUMBxEe-XStdhozwh7A" base_ExecutionEnvironment="_JK8jIL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_2VfEoMBxEe-XStdhozwh7A" base_Artifact="_Lb0ZkL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_IlpCQMByEe-XStdhozwh7A" base_Node="_PBmNcL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_Il_nkMByEe-XStdhozwh7A" base_Node="_PBmNcL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_QSYEcMByEe-XStdhozwh7A" base_Artifact="_DX384MByEe-XStdhozwh7A"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_VnPQUMByEe-XStdhozwh7A" base_Node="_Tn2m4L7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_W-3xoMByEe-XStdhozwh7A" base_Artifact="_b0U5EL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_b1sWoMByEe-XStdhozwh7A" base_Artifact="_eOB7YL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_ey2rUMByEe-XStdhozwh7A" base_Node="_ldkEML7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_ezJmQMByEe-XStdhozwh7A" base_Node="_ldkEML7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_gNsRoMByEe-XStdhozwh7A" base_Node="_3HtKsL7PEe-1_rTKxio1mg" base_ExecutionEnvironment="_3HtKsL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_gOOdIMByEe-XStdhozwh7A" base_ExecutionEnvironment="_3HtKsL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_hzUysMByEe-XStdhozwh7A" base_Artifact="_9L5hwL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_lqRPEMByEe-XStdhozwh7A" base_Node="_nzojsL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Periferica xmi:id="_lqlYIMByEe-XStdhozwh7A" base_Node="_nzojsL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_O4BUYMB0Ee-XStdhozwh7A" base_Node="_Tn2m4L7PEe-1_rTKxio1mg"/>
+</xmi:XMI>

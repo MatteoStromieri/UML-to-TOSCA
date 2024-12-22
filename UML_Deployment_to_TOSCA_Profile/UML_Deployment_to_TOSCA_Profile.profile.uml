@@ -8,6 +8,100 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBL0dEe-PEL9IrliJmQ" key="Date" value=""/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VO_WBb0dEe-PEL9IrliJmQ" key="Author" value="&lt;undefined>"/>
     </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_BIO4sMB2Ee-XStdhozwh7A" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/_BILOUMB2Ee-XStdhozwh7A/8" nsPrefix="UML_Deployment_to_TOSCA_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4scB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/Ecore">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO4ssB2Ee-XStdhozwh7A" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIQt48B2Ee-XStdhozwh7A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIQt5MB2Ee-XStdhozwh7A" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIQt5cB2Ee-XStdhozwh7A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIQt5sB2Ee-XStdhozwh7A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIQt58B2Ee-XStdhozwh7A" key="Date" value="2024-12-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIQt6MB2Ee-XStdhozwh7A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BIO4s8B2Ee-XStdhozwh7A" name="Hardware">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4tMB2Ee-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6xLlAL0dEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO4tcB2Ee-XStdhozwh7A" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BIO4t8B2Ee-XStdhozwh7A" name="Piattaforma">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4uMB2Ee-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_5EVMML0eEe-PEL9IrliJmQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO4ucB2Ee-XStdhozwh7A" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO4u8B2Ee-XStdhozwh7A" name="base_ExecutionEnvironment" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionEnvironment"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BIO4vcB2Ee-XStdhozwh7A" name="Software">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4vsB2Ee-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_6SHN8L0eEe-PEL9IrliJmQ"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_BIO4v8B2Ee-XStdhozwh7A" name="SoftwareDeployedOnPlatform">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4wMB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO4wcB2Ee-XStdhozwh7A" key="body" value="self.stereotypeApplied(Software) implies self.deployment->select(d | d.location.stereotypeApplied(Piattaforma))->size() = 1"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_BIO4w8B2Ee-XStdhozwh7A" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4xMB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO4xcB2Ee-XStdhozwh7A" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_BIO4x8B2Ee-XStdhozwh7A" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO4yMB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO4ycB2Ee-XStdhozwh7A" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_BIO4ysB2Ee-XStdhozwh7A">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_BIO4y8B2Ee-XStdhozwh7A">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_BIO4zMB2Ee-XStdhozwh7A">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO4zcB2Ee-XStdhozwh7A" name="base_ExecutionEnvironment" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//ExecutionEnvironment"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO4z8B2Ee-XStdhozwh7A" name="base_Artifact" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_BIO40cB2Ee-XStdhozwh7A" name="base_Node" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Node"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_BIO408B2Ee-XStdhozwh7A" name="Periferica" eSuperTypes="_BIO4s8B2Ee-XStdhozwh7A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO41MB2Ee-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_73XUgL0eEe-PEL9IrliJmQ"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_BIO41cB2Ee-XStdhozwh7A" name="PerifericaConnessaHardware">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO41sB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO418B2Ee-XStdhozwh7A" key="body" value="self.stereotype = 'Periferica' implies &#xD;&#xA;     self.outgoing->exists(target.stereotype = 'Hardware')"/>
+          </eAnnotations>
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_BIO42cB2Ee-XStdhozwh7A" name="diagnostics">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO42sB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO428B2Ee-XStdhozwh7A" key="documentation" value="The chain of diagnostics to which problems are to be appended."/>
+            </eAnnotations>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EDiagnosticChain"/>
+          </eParameters>
+          <eParameters xmi:type="ecore:EParameter" xmi:id="_BIO43cB2Ee-XStdhozwh7A" name="context">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BIO43sB2Ee-XStdhozwh7A" source="http://www.eclipse.org/emf/2002/GenModel">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BIO438B2Ee-XStdhozwh7A" key="documentation" value="The cache of context-specific information."/>
+            </eAnnotations>
+            <eGenericType xmi:type="ecore:EGenericType" xmi:id="_BIO44MB2Ee-XStdhozwh7A">
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_BIO44cB2Ee-XStdhozwh7A">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eTypeArguments xmi:type="ecore:EGenericType" xmi:id="_BIO44sB2Ee-XStdhozwh7A">
+                <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+              </eTypeArguments>
+              <eClassifier xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EMap"/>
+            </eGenericType>
+          </eParameters>
+        </eOperations>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_hWKSUL7BEe-iBtUHqf9b-w" name="UML_Deployment_to_TOSCA_Profile" nsURI="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7" nsPrefix="UML_Deployment_to_TOSCA_Profile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hWKSUb7BEe-iBtUHqf9b-w" source="http://www.eclipse.org/emf/2002/Ecore">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hWKSUr7BEe-iBtUHqf9b-w" key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
@@ -468,6 +562,10 @@
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Artifact"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CeNssb0fEe-PEL9IrliJmQ"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6p7YgMB1Ee-XStdhozwh7A" name="base_Node" association="_6p0q0MB1Ee-XStdhozwh7A">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Node"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6p7YgcB1Ee-XStdhozwh7A"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Stereotype" xmi:id="_73XUgL0eEe-PEL9IrliJmQ" name="Periferica">
     <ownedRule xmi:type="uml:Constraint" xmi:id="_q9XNQL3pEe-nDKgMc7DIwg" name="PerifericaConnessaHardware">
@@ -490,5 +588,8 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Extension" xmi:id="_CeL3gL0fEe-PEL9IrliJmQ" name="E_Software_Artifact15" memberEnd="_CeNFoL0fEe-PEL9IrliJmQ _CeNssL0fEe-PEL9IrliJmQ">
     <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CeNFoL0fEe-PEL9IrliJmQ" name="extension_Software" type="_6SHN8L0eEe-PEL9IrliJmQ" aggregation="composite" association="_CeL3gL0fEe-PEL9IrliJmQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_6p0q0MB1Ee-XStdhozwh7A" name="E_Software_Node16" memberEnd="_6p6KYMB1Ee-XStdhozwh7A _6p7YgMB1Ee-XStdhozwh7A">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_6p6KYMB1Ee-XStdhozwh7A" name="extension_Software" type="_6SHN8L0eEe-PEL9IrliJmQ" aggregation="composite" association="_6p0q0MB1Ee-XStdhozwh7A"/>
   </packagedElement>
 </uml:Profile>
