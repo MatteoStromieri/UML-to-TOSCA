@@ -78,7 +78,6 @@
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_yr1gkMB1Ee-XStdhozwh7A" base_Node="_GJunIL7KEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_ysMF4MB1Ee-XStdhozwh7A" base_Node="_GJunIL7KEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_I4jaYMB2Ee-XStdhozwh7A" base_Node="_vUEokL7KEe-1_rTKxio1mg"/>
-  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_I41HMMB2Ee-XStdhozwh7A"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_Lx9QcMB2Ee-XStdhozwh7A" base_Node="_-m-K4L7KEe-1_rTKxio1mg" base_ExecutionEnvironment="_-m-K4L7KEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_Lyk7gMB2Ee-XStdhozwh7A" base_ExecutionEnvironment="_-m-K4L7KEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_NUJb8MB2Ee-XStdhozwh7A" base_Node="_g37vIL7KEe-1_rTKxio1mg"/>

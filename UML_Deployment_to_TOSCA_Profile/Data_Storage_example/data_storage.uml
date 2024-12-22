@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_Deployment_to_TOSCA_Profile="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7 ../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_Deployment_to_TOSCA_Profile="http:///schemas/UML_Deployment_to_TOSCA_Profile/_BILOUMB2Ee-XStdhozwh7A/8" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UML_Deployment_to_TOSCA_Profile/_BILOUMB2Ee-XStdhozwh7A/8 ../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_BIO4sMB2Ee-XStdhozwh7A">
   <uml:Model xmi:id="_yTId4L7OEe-1_rTKxio1mg" name="data_storage">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_yUtLML7OEe-1_rTKxio1mg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -63,8 +63,15 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_DX384MByEe-XStdhozwh7A" name="Web Server Application"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NibXQMBwEe-XStdhozwh7A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n8vEIMB2Ee-XStdhozwh7A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8vEIcB2Ee-XStdhozwh7A" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8vEIsB2Ee-XStdhozwh7A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8vEI8B2Ee-XStdhozwh7A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8vEJMB2Ee-XStdhozwh7A" key="Date" value="2024-12-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n8vEJcB2Ee-XStdhozwh7A" key="Author" value=""/>
+      </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NikhMMBwEe-XStdhozwh7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w"/>
+        <references xmi:type="ecore:EPackage" href="../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_BIO4sMB2Ee-XStdhozwh7A"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../UML_Deployment_to_TOSCA_Profile/UML_Deployment_to_TOSCA_Profile.profile.uml#_8Cbm8L0cEe-PEL9IrliJmQ"/>
     </profileApplication>
@@ -72,7 +79,7 @@
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_t7CA0MBxEe-XStdhozwh7A" base_Node="_Gn7z0L7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_t7xAoMBxEe-XStdhozwh7A" base_Node="_Gn7z0L7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_x0GkIMBxEe-XStdhozwh7A" base_Node="_JK8jIL7PEe-1_rTKxio1mg" base_ExecutionEnvironment="_JK8jIL7PEe-1_rTKxio1mg"/>
-  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_x0vdUMBxEe-XStdhozwh7A" base_ExecutionEnvironment="_JK8jIL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_x0vdUMBxEe-XStdhozwh7A" base_ExecutionEnvironment="_JK8jIL7PEe-1_rTKxio1mg" base_Node="_JK8jIL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_2VfEoMBxEe-XStdhozwh7A" base_Artifact="_Lb0ZkL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_IlpCQMByEe-XStdhozwh7A" base_Node="_PBmNcL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_Il_nkMByEe-XStdhozwh7A" base_Node="_PBmNcL7PEe-1_rTKxio1mg"/>
@@ -83,7 +90,7 @@
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_ey2rUMByEe-XStdhozwh7A" base_Node="_ldkEML7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_ezJmQMByEe-XStdhozwh7A" base_Node="_ldkEML7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_gNsRoMByEe-XStdhozwh7A" base_Node="_3HtKsL7PEe-1_rTKxio1mg" base_ExecutionEnvironment="_3HtKsL7PEe-1_rTKxio1mg"/>
-  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_gOOdIMByEe-XStdhozwh7A" base_ExecutionEnvironment="_3HtKsL7PEe-1_rTKxio1mg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_gOOdIMByEe-XStdhozwh7A" base_ExecutionEnvironment="_3HtKsL7PEe-1_rTKxio1mg" base_Node="_3HtKsL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_hzUysMByEe-XStdhozwh7A" base_Artifact="_9L5hwL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_lqRPEMByEe-XStdhozwh7A" base_Node="_nzojsL7PEe-1_rTKxio1mg"/>
   <UML_Deployment_to_TOSCA_Profile:Periferica xmi:id="_lqlYIMByEe-XStdhozwh7A" base_Node="_nzojsL7PEe-1_rTKxio1mg"/>
