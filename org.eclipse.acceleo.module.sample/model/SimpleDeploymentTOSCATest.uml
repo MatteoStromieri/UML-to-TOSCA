@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UML_Deployment_to_TOSCA_Profile="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UML_Deployment_to_TOSCA_Profile/_hWJEML7BEe-iBtUHqf9b-w/7 UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w">
+  <uml:Model xmi:id="_8buMkOrCEe-PILxdF7Mg_g" name="SimpleDeploymentTOSCATest">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_8b9dIOrCEe-PILxdF7Mg_g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Node" xmi:id="_IFf80O0YEe-YE5PfO3egkQ" name="Hardware_2">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_clm5YOygEe-i641VwBI5rg" name="Software_4" fileName="Software_4"/>
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_rmKO0OydEe-i641VwBI5rg" name="Piattaforma_B1">
+        <deployment xmi:type="uml:Deployment" xmi:id="_i2awIOygEe-i641VwBI5rg" client="_rmKO0OydEe-i641VwBI5rg" supplier="_U5rvgOygEe-i641VwBI5rg" deployedArtifact="_U5rvgOygEe-i641VwBI5rg"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_tA3K4OygEe-i641VwBI5rg" client="_rmKO0OydEe-i641VwBI5rg" supplier="_clm5YOygEe-i641VwBI5rg" deployedArtifact="_clm5YOygEe-i641VwBI5rg"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_U5rvgOygEe-i641VwBI5rg" name="Software_3" fileName="Software_3"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_kkZXoO0eEe-YE5PfO3egkQ" name="Software_6" fileName=""/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_lJpZwO0eEe-YE5PfO3egkQ" name="Software_5" fileName=""/>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_ernmYO0eEe-YE5PfO3egkQ" name="Piattaforma_B2">
+        <deployment xmi:type="uml:Deployment" xmi:id="_momrEO0eEe-YE5PfO3egkQ" client="_ernmYO0eEe-YE5PfO3egkQ" supplier="_lJpZwO0eEe-YE5PfO3egkQ" deployedArtifact="_lJpZwO0eEe-YE5PfO3egkQ"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_oA4soO0eEe-YE5PfO3egkQ" client="_ernmYO0eEe-YE5PfO3egkQ" supplier="_kkZXoO0eEe-YE5PfO3egkQ" deployedArtifact="_kkZXoO0eEe-YE5PfO3egkQ"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_h1skcO0YEe-YE5PfO3egkQ" name="Hardware_1">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_8AQUYOrJEe-PILxdF7Mg_g" name="Software_1" fileName="Software_1"/>
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_Td8G0OrKEe-PILxdF7Mg_g" name="Piattaforma_A">
+        <deployment xmi:type="uml:Deployment" xmi:id="_O4ZnkOulEe-CKJ3Y48xieQ" client="_Td8G0OrKEe-PILxdF7Mg_g" supplier="_8AQUYOrJEe-PILxdF7Mg_g" deployedArtifact="_8AQUYOrJEe-PILxdF7Mg_g"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_nEYlYOygEe-i641VwBI5rg" client="_Td8G0OrKEe-PILxdF7Mg_g" supplier="_UPVyAOygEe-i641VwBI5rg" deployedArtifact="_UPVyAOygEe-i641VwBI5rg"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_UPVyAOygEe-i641VwBI5rg" name="Software_2" fileName="Software_2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_CVXUwO0ZEe-YE5PfO3egkQ" name="Hardware_3">
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_vxrNAOydEe-i641VwBI5rg" name="Piattaforma_C">
+        <deployment xmi:type="uml:Deployment" xmi:id="_3AbyYOygEe-i641VwBI5rg" client="_vxrNAOydEe-i641VwBI5rg" supplier="_wFnVUOygEe-i641VwBI5rg" deployedArtifact="_wFnVUOygEe-i641VwBI5rg"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_wFnVUOygEe-i641VwBI5rg" name="Software_7" fileName=""/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Node" xmi:id="_I8q_8O0ZEe-YE5PfO3egkQ" name="Hardware_4">
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_NJ7qkO0ZEe-YE5PfO3egkQ" name="Piattaforma_D"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jdp0UOulEe-CKJ3Y48xieQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jdp0UeulEe-CKJ3Y48xieQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="UML_Deployment_to_TOSCA_Profile.profile.uml#_hWKSUL7BEe-iBtUHqf9b-w"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="UML_Deployment_to_TOSCA_Profile.profile.uml#_8Cbm8L0cEe-PEL9IrliJmQ"/>
+    </profileApplication>
+  </uml:Model>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_mAjO4OulEe-CKJ3Y48xieQ" base_Node="_Td8G0OrKEe-PILxdF7Mg_g" base_ExecutionEnvironment="_Td8G0OrKEe-PILxdF7Mg_g"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_nO__AOulEe-CKJ3Y48xieQ" base_Artifact="_8AQUYOrJEe-PILxdF7Mg_g"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_4ohR4OydEe-i641VwBI5rg" base_Node="_rmKO0OydEe-i641VwBI5rg" base_ExecutionEnvironment="_rmKO0OydEe-i641VwBI5rg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_pVHR4OygEe-i641VwBI5rg" base_Artifact="_UPVyAOygEe-i641VwBI5rg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_q5KekOygEe-i641VwBI5rg" base_Artifact="_U5rvgOygEe-i641VwBI5rg"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_zyTCcOygEe-i641VwBI5rg" base_Artifact="_wFnVUOygEe-i641VwBI5rg"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_bZ3JcO0YEe-YE5PfO3egkQ" base_Node="_IFf80O0YEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_wQmu0O0YEe-YE5PfO3egkQ" base_Node="_h1skcO0YEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Hardware xmi:id="_G9D4oO0ZEe-YE5PfO3egkQ" base_Node="_CVXUwO0ZEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_TleKoO0ZEe-YE5PfO3egkQ" base_Node="_NJ7qkO0ZEe-YE5PfO3egkQ" base_ExecutionEnvironment="_NJ7qkO0ZEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Piattaforma xmi:id="_gnWTQO0eEe-YE5PfO3egkQ" base_Node="_ernmYO0eEe-YE5PfO3egkQ" base_ExecutionEnvironment="_ernmYO0eEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_u8U0wO0eEe-YE5PfO3egkQ" base_Artifact="_lJpZwO0eEe-YE5PfO3egkQ"/>
+  <UML_Deployment_to_TOSCA_Profile:Software xmi:id="_vuKhYO0eEe-YE5PfO3egkQ" base_Artifact="_kkZXoO0eEe-YE5PfO3egkQ"/>
+</xmi:XMI>

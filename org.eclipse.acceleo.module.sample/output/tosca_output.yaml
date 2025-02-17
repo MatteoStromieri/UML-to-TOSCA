@@ -1,0 +1,46 @@
+tosca_definitions_version: tosca_simple_yaml_1_3
+
+service_templates:
+
+  Hardware_1:
+    type: Hardware
+    topology_template:
+      node_templates:
+        Piattaforma_A:
+          derived_from: tosca.nodes.Compute
+          type: Piattaforma
+          artifacts:
+            Software_1:
+              type: Software
+              file: "Software_1.tar.gz"
+            Software_2:
+              type: Software
+              file: "Software_2.tar.gz"
+
+  Hardware_2:
+    type: Hardware
+    topology_template:
+      node_templates:
+        Piattaforma_B1:
+          derived_from: tosca.nodes.Compute
+          type: Piattaforma
+          artifacts:
+            Software_3:
+              type: Software
+              file: "Software_3.tar.gz"
+
+        Piattaforma_B2:
+          derived_from: tosca.nodes.Compute
+          type: Piattaforma
+          artifacts:
+            Software_5:
+              type: Software
+              file: "Software_5.tar.gz"
+            Software_6:
+              type: Software
+              file: "Software_6.tar.gz"
+
+  Hardware_3:
+    type: Hardware
+  
+

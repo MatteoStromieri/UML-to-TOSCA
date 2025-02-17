@@ -1,0 +1,40 @@
+[module generate('http://www.eclipse.org/uml2/5.0.0/Types', 'http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[template public main(model : Model)]
+[comment @main/]
+[file ('tosca_output.yaml', false, 'UTF-8')]
+tosca_definitions_version: tosca_simple_yaml_1_3
+
+[if (model.packagedElement->select(e | e.oclIsTypeOf(Node) and e.getAppliedStereotypes()->exists(s | s.name = 'Hardware'))->notEmpty())]
+service_templates:
+
+  [for (node : Node | model.packagedElement->select(e | e.oclIsTypeOf(Node) and e.getAppliedStereotypes()->exists(s | s.name = 'Hardware')))]
+  [node.name/]:
+    type: [node.getAppliedStereotype('UML_Deployment_to_TOSCA_Profile::Hardware').name/]
+  	[if (node.ownedElement->select(e | e.oclIsTypeOf(ExecutionEnvironment) and e.getAppliedStereotypes()->exists(s | s.name = 'Piattaforma'))->size()>0) ]
+    topology_template:
+      node_templates:
+        [for (execEnv : ExecutionEnvironment | node.ownedElement->select(e | e.oclIsTypeOf(ExecutionEnvironment) and e.getAppliedStereotypes()->exists(s | s.name = 'Piattaforma')))]
+        [execEnv.name/]:
+          derived_from: tosca.nodes.Compute
+          type: [execEnv.getAppliedStereotype('UML_Deployment_to_TOSCA_Profile::Piattaforma').name/]
+          [if (execEnv.deployment->size()>0 and execEnv.deployment.deployedArtifact.getAppliedStereotypes()->exists(s | s.name = 'Software') )]
+          artifacts:
+            [for(d : Deployment | execEnv.deployment)]
+		      [if d.deployedArtifact.getAppliedStereotypes()->exists(s | s.name = 'Software')]
+            [d.deployedArtifact.name/]:
+              type: [d.deployedArtifact.getAppliedStereotype('UML_Deployment_to_TOSCA_Profile::Software').name/]
+              file: "[d.deployedArtifact.name/].tar.gz"
+		      [/if]
+            [/for]
+
+	      [/if]
+        [/for]
+    [/if]    
+  [/for]
+  
+[/if]
+
+[/file]
+[/template]
+
